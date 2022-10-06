@@ -1,52 +1,52 @@
 //Ini untuk setting Bot
 //Untuk gambar background menu ada -
-//Dalam file menu 
-//untuk lainya saran jangan di ubah bre nanti eror
-//misal gua lupa nambah atau typo benerin aja bre gua pusing njir awokawok 
+//Dalam file _menunya.js
 
-//Global Owner//
-global.owner = ['6282221792667']  // isi jika perlu
-global.mods = ['6282221792667']   // isi jika perlu
-global.prems = ['6282221792667']  // isi jika perlu
+//『 Utama 』 //
+global.owner = ['6288233832771']  // isi jika perlu
+global.mods = ['6288233832771']   // isi jika perlu
+global.prems = ['6288233832771']  // isi jika perlu
 
-//Nomor Owner & payment//
-global.nameowner = 'TioXd' // isi nama kalian bebas
-global.numberowner = '6282221792667' // isi nomor kalian dengan awalan seperti di contoh 
-global.dana = '6282221792667' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '6282221792667' // isi dengan nomor pulsa hp kalian
-global.gopay = '6282221792667'
+//Isi dengan nama dan nomor lu//
+global.nameowner = 'Mursid S' // isi nama kalian bebas
+global.numberowner = '6288233832771' // isi nomor kalian dengan awalan seperti di contoh 
+global.dana = '6288233832771' // isi dengan nomor dana yg kamu punya 
+global.pulsa = '6289674452300' // isi dengan nomor pulsa hp kalian
+global.gopay = '6288233832771'
 
-//Nama Bot & Grouplink//
-global.namebot = 'RTXZY-MD'
-global.gc = 'https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL'
-global.web = 'https://github.com/BOTCAHX' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+//Name Bot & Grouplink//
+global.namebot = 'мυʀѕι∂ вσт-χмℓ'
+global.gc = 'https://chat.whatsapp.com/FhSBFvhtzfN5hIVe1GXAfj'
+global.web = 'https://instagram.com/mursid.st' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 
-//Tampilan wm Bot dan pesan bot//
+//Tanpilan wm Bot //
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© R-TXZY-MD'
+global.wm = 'мυʀѕι∂ вσт-χмℓ'
 global.watermark = wm
-global.wm2 = '⫹⫺ R-TXZY-MD'
-global.wm3 = '© R-TXZY-MD'
-global.wm4 = '© 2021/2022'
+global.wm2 = 'мυʀѕι∂ вσт-χмℓ'
+global.wm3 = 'мυʀѕι∂ вσт-χмℓ'
+global.wm4 = '2022'
+global.htki = '––––––「' 
+global.htka = '」––––––'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
-global.wait = '_*Tunggu sedang di proses...*_'
-global.eror = '_*Server Error*_'
-global.benar = 'Benar ✅\n'
-global.salah = 'Salah ❌\n'
-global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
-global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nR-TXZY-MD'
+global.wait = 'тυɴggυ ѕє∂αɴg ∂ι ρʀσѕєѕ...'
+global.eror = 'ѕєʀνєʀ ѕє∂αɴg єʀʀσʀ'
+global.benar = 'вєɴαʀ'
+global.salah = 'ѕαℓαн'
+global.stiker_wait = 'Loading...'
+global.packname = 'sᴛɪᴄᴋᴇʀ ʙʏ'
+global.author = 'мυʀѕι∂ вσт-χмℓ'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com',
-  bx: 'https://bx-hunter.herokuapp.com',
+    bx: 'https://bx-hunter.herokuapp.com',
   dhnjing: 'https://dhnjing.xyz',
   hardianto: 'https://hardianto-chan.herokuapp.com',
   jonaz: 'https://jonaz-api-v2.herokuapp.com',
-  neoxr: 'https://api.neoxr.my.id',
+  neoxr: 'https://neoxr-api.herokuapp.com',
   nrtm: 'https://nurutomo.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
   nzcha: 'http://nzcha-apii.herokuapp.com',
@@ -56,20 +56,19 @@ global.APIs = { // API Prefix
   bsbt: 'https://bsbt-api-rest.herokuapp.com',
   zahir: 'https://zahirr-web.herokuapp.com',
   zeks: 'https://api.zeks.xyz',
-  zekais: 'http://zekais.com',
+  zekais: 'http://zekais-api.herokuapp.com',
   hardianto: 'https://hardianto-chan.herokuapp.com',
   pencarikode: 'https://pencarikode.xyz', 
   erdwepe: 'https://erdwpe-api.herokuapp.com',
   lolhuman: 'https://api.lolhuman.xyz',
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
-  rey: 'https://sekha.me',
+  rey: 'https://server-api-rey.herokuapp.com',
   males: 'https://malesin.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://melcanz.com': 'elaina',
-  'https://api.neoxr.my.id': 'Register',
-  'https://sekha.me': 'apirey',
+  'https://server-api-rey.herokuapp.com': 'apirey',
   'https://api.xteam.xyz': 'd37372311698ed1d',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
@@ -77,7 +76,7 @@ global.APIKeys = { // APIKey Here
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-  'https://zekais.com': 'apikeymu',
+  'https://zekais-api.herokuapp.com': 'apikeymu',
   'https://api.lolhuman.xyz': 'Deffbotz',
 }
 
