@@ -1,28 +1,22 @@
-let fs = require('fs')
-let handler = async (m, { conn }) => {
-let teks = 'donasi'
-let dana = global.dana
-let pulsa = global.pulsa
-let gopay = global.gopay
-let numberowner = global.numberowner
-let anu = `Hai 👋
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-┌〔 Donasi • Emoney 〕
-├ Dana : ${dana}
-├ Pulsa : ${pulsa}
-└────
-Berapapun donasi kalian akan sangat berarti 👍
+const qrmursid = "https://telegra.ph/file/c8a8cabe89cda01e0fec9.jpg"
 
-Terimakasih =D
-
-Contact person Owner:
-wa.me/${numberowner} (Owner)
-
-*donasi via follow ig juga boleh*`
-  conn.sendButtonImg(m.chat, fla + teks, anu, instagram, 'Thanks', 'thanks', m) 
-}
-handler.help = ['donasi', 'donate']
-handler.tags = ['xp', 'info']
-handler.command = /^(donasi|donate)$/i
+let handler = async (m, { conn, usedPrefix }) => conn.sendButtonImg(m.chat, qrmursid, `
+┏──「 Donasi • E-money 」─⬣
+│ • Gopay : 088233832771
+│ • Dana : 088233832771
+│ • Smartfren : 088233832771
+│ • Tri : 089674452300
+┗────────⬣
+┏──「 *NOTE* 」─⬣
+│ > Ingin donasi? wa.me/6288233832771
+│ _Hasil donasi akan digunakan buat sewa_
+│ _atau beli *RDP/VPS* agar bot bisa jalan_
+│ _24jam tanpa kendala, siapapun yang donasi_
+│ _akan saya kasih user premium selama 2 minggu_
+┗────────⬣
+`.trim(), wm, 'Menu', usedPrefix + 'menu', m) // Tambah sendiri kalo mau
+handler.help = ['donasi']
+handler.tags = ['about']
+handler.command = /^dona(te|si)$/i
 
 module.exports = handler
