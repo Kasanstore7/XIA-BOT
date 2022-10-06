@@ -4,10 +4,9 @@ let handler = async (m, { conn }) => {
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
 
 m.reply(`
-*───「 RUNTIME BOT 」───*
 
-Runtime : ${uptime} 
-Waktu : ${time}
+Bot berjalan selama : ${uptime} 
+Waktu : ${time} WIB
 
     `)
 }
