@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
 m.reply(`
 
 Bot berjalan selama : ${uptime} 
-Waktu : ${time} WIB
+Waktu : ${time} Asia Jakarta
 
     `)
 }
