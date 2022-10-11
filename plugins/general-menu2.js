@@ -15,7 +15,7 @@ const defaultMenu = {
 ││⬡ *Total Xp* : %totalexp XP
 ││⬡ *Tanggal Islam* : %dateIslamic
 ││⬡ *Tanggal* : %date
-││⬡ *Waktu* : %time WIB
+││⬡ *Waktu* : %time Asia Jakarta
 ││⬡ *Hari* : %week %weton
 │└────────────────✽
 │⬡  *Level Up* : %xp4levelup
@@ -26,7 +26,7 @@ const defaultMenu = {
 │ ⬡ *Role* : %role
 │ ⬡ *Premium* : ${global.prem ? 'Premium' : 'Gratisan'}
 ├─────────────────✽
-│⬡ *Library* : Baileys Multi Auth
+│⬡ *Uptime* : %uptime
 │⬡ *Server* : RDP/VPS
 │⬡ *Version* : %version
 │⬡ *Prefix* : [ %p ]
@@ -283,19 +283,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 "description": "Dukung terus dengan cara berdonasi seikhlasnya, untuk mendukung agar bot berjalan 24 jam nonstop tanpa ada kendala",
                 "rowId": `${_p}donasi`
               }, {
-                "title": "ɪɴғᴏʀᴍᴀsɪ ᴍᴜʀsɪᴅ ",
-                "description": "Identitas owner lebih lanjut",
-                "rowId": `${_p}infomursid`
-              }, {
                 "title": "ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴇᴍᴜᴀ",
                 "description": "Terimakasih atas dukungan dan support dari kalian, terimakasih banyak kepada pihak yang terkait dalam pembangunan мυʀѕι∂ вσт-χмℓ ",
                 "rowId": `${_p}tqto`
               }, {
-                "title": "ɢʀᴜᴘ ᴏғғɪᴄɪᴀʟ",
+                "title": "ɢʀᴜᴘ ʙᴏᴛ ᴏғғɪᴄɪᴀʟ",
                 "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan",
                 "rowId": `${_p}gcbot`
               }],
-              "title": `ʟιѕт мєɴυ мυʀѕι∂ вσт-χмℓ `
+              "title": `ѕємυα ρєʀιɴтαн мυʀѕι∂ вσт-χмℓ `
             }, {
               "rows": [{
                 "title": `sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ`,
@@ -522,7 +518,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'мυʀѕι∂ вσт-χмℓ ',  
-              body: 'ᴡнαтѕαρρ вσт мυʟтι ∂єνιᴄє', 
+              body: 'ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙᴀɪʟʏᴇs ᴍᴜʟᴛɪ ᴀᴜᴛʜ', 
               description: 'мυʀѕι∂ вσт-χмℓ ', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/6385e163e7dc3ede76cae.jpg')).buffer(), 
