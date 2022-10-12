@@ -18,8 +18,8 @@ const defaultMenu = {
 ││⬡ *Waktu* : %time Asia Jakarta
 ││⬡ *Hari* : %week %weton
 │└────────────────✽
-│⬡  *Level Up* : %xp4levelup
-│ ⬡ *Pengguna* :  %name 
+│⬡  *Level Naik* : %xp4levelup
+│ ⬡ *User* :  %name 
 │ ⬡ *Limit* : %limit
 │ ⬡ *Exp* : %totalexp
 │ ⬡ *Level* : %level
@@ -27,9 +27,8 @@ const defaultMenu = {
 │ ⬡ *Premium* : ${global.prem ? 'Premium' : 'Gratisan'}
 ├─────────────────✽
 │⬡ *Uptime* : %uptime
-│⬡ *Server* : RDP/VPS
+│⬡ *Baileys Version* : 08.06.10
 │⬡ *Version* : %version
-│⬡ *Prefix* : [ %p ]
 │⬡ *Database* : %rtotalreg dari %totalreg 
 │⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 │⬡ https://instagram.com/mursid.st
@@ -521,7 +520,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
               body: 'ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙᴀɪʟʏᴇs ᴍᴜʟᴛɪ ᴀᴜᴛʜ', 
               description: 'мυʀѕι∂ вσт-χмℓ ', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/6385e163e7dc3ede76cae.jpg')).buffer(), 
+            thumbnail: await (await fetch('https://telegra.ph/file/84fbf55d0df841cf8e5fb.jpg')).buffer(), 
            mediaUrl: `https://instagram.com/mursid.st` 
           }  
        }  
