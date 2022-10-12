@@ -7,11 +7,11 @@ let handler = async (m, { conn }) => {
     let thumbnail = fs.readFileSync('./media/bank.jpg')
     let user = global.db.data.users[who]
 let anu = `
-🏦 Bank *${user.name}*
-⭐ Role : *${user.role}*\n\n
-*${user.exp}* Exp ✨
-*${user.limit}* Limit 📊
-*${user.money}* Money 💵`
+Bank : *${user.name}*
+Role : *${user.role}*
+Total Exp : *${user.exp}*
+Limit : *${user.limit}*
+Money : *${user.money}*`
       conn.sendButtonImg(m.chat, thumbnail, anu, wm2, 'Menu', '.menu', m) 
 }
 handler.help = ['bank', 'dompet', 'dompet @user']
