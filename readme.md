@@ -1,5 +1,5 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-# Bot Whatsapp Multi Auth 
+# Bot Whatsapp Multi Auth By BOTCAHX 
  
  <p align="center">
 <img width="" src="https://img.shields.io/github/repo-size/BOTCAHX/RTXZY-MD?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
@@ -46,24 +46,19 @@
 > pkg install bash
 > pkg install ffmpeg
 > pkg install libwebp
-> git clone  https://github.com/BOTCAHX/RTXZY-MD
-> cd RTXZY-MD
-> npm i
-> node index.js
+> git clone https://github.com/Botwa021/mursidxml
+> cd mursidxml
+> npm install
+> node .
 
-## untuk Sdcard (File yang Sudah Di Download)
-> cd /sdcard
-> cp -r RTXZY-MD $HOME
-> cd RTXZY-MD
-> npm i
-> node index.js
+## MOHON MAAF JIKA ADA KESALAHAN DALAM PENGGUNAAN SC ATAU SEMACAM BUG ERROR DALAM PENGINSTALAN BOT SEGERA LAPOR KE SAYA wa.me/6288233832771
 ```
 
 ## Run On Heroku
 
 Simple WhatsApp Bot
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BOTCAHX/RTXZY-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Botwa021/mursidxml)
 
 ```bash
 Login with your github
@@ -78,9 +73,9 @@ Choose your repo
 * Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/BOTCAHX/RTXZY-MD
-cd RTXZY-MD
-npm i
+git clone https://github.com/Botwa021/mursidxml
+cd mursidxml
+npm install
 npm start
 ```
 # Heroku Buildpack
@@ -191,6 +186,8 @@ conn.logger.level = 'debug'
  [`AlyaXzy`](https://wa.me/6289505165400)
 
  [`BOTCAHX`](https://wa.me/6282221792667)
+
+ [`MURSID`](https://wa.me/6288233832771)
  
  [`Verdi`](https://wa.me/6285706735450)
  
