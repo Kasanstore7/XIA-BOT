@@ -16,8 +16,6 @@ const ftroli = {
     }
     }
     }
-	conn.reply(m.chat, price1, ftroli)
-}
 
 handler.help = ['sewa', 'sewabot']
 handler.tags = ['info']
