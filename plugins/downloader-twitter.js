@@ -16,8 +16,9 @@ let handler = async (m, { usedPrefix, command, conn, args }) => {
   if (!video) throw 'Can\'t get video/image'
   let ress = result[index]
   conn.sendFile(m.chat, video, 'twitter' + /video/.test(ress.mime) ? '.mp4' : '.png', `
-*Name:* ${res.name}
-*Mime:* ${ress.mime}
+*Name* : ${res.name}
+*Mime* : ${ress.mime}
+*By* : Mursid S
 `.trim(), m)
 }
 handler.help = ['twitter'].map(v => v + ' <url>')
