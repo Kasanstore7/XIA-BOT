@@ -1,15 +1,22 @@
 let fetch = require('node-fetch')
-let axios = require('axios')
 let handler = async (m, { conn, args }) => {
-  if (!args[0]) throw 'Uhm...url nya mana?'
- 
-await conn.reply(m.chat, `Downloading media from Tiktok`, m)
-let txt = `🚀 *Link:* ${await(await axios.get(`https://tinyurl.com/api-create.php?url=${args[0]}`)).data}` 
-    await conn.send2ButtonVid(m.chat, `https://api.lolhuman.xyz/api/tiktokwm?apikey=SadTeams&url=${args[0]}` , txt, wm, `No Wm`, `.tiktoknowm ${args[0]}`, `Audio`, `.tiktokaudio ${args[0]}`, m)
+if (!args[0]) throw 'Uhm..url nya mana?'
+m.reply(wait)
+let res = await fetch(`https://botcahx.ddns.net/api/dowloader/tikok?url=${args[0]}`)
+if (!res.ok) throw await res.text()
+let json = await res.json()
+if (!json.status) throw json
+let { video, description, username } = json.result
+await conn.sendFile(m.chat, video, 'video.mp4', `
+*Deskripsi* : ${description}
+\n*Username* : ${username}
+\n*Powered By* : Mursid S
+`, m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
 }
-handler.help = ['tiktok'].map(v => v + ' <url>')
+
+handler.help = ['tiktok <url>']
 handler.tags = ['downloader']
 
-handler.command = /^((tt|tiktok)?(dl)?)$/i
-
+handler.command = /^(tt|tiktok|t)$/i
+handler.limit = true
 module.exports = handler
