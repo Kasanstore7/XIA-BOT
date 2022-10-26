@@ -9,17 +9,16 @@ const defaultMenu = {
   before: `┌───────────────────⬣
 │           *мυʀѕι∂ вσт-χмℓ*
 └┬────────────────✽  
-┌┤⬡ *Name* : %name
+┌┤⬡ *Nama* : %name
 ││⬡ *Role* : %role
 ││⬡ *Level* : %level %exp / %maxexp
 ││⬡ *Total Xp* : %totalexp XP
 ││⬡ *Tanggal Islam* : %dateIslamic
 ││⬡ *Tanggal* : %date
-││⬡ *Waktu* : %time Asia Jakarta
 ││⬡ *Hari* : %week %weton
 │└────────────────✽
-│⬡  *Level Naik* : %xp4levelup
-│ ⬡ *User* :  %name 
+│ ⬡ *Time* : %time Asia Jakarta
+│ ⬡ *Pengguna* : %name 
 │ ⬡ *Limit* : %limit
 │ ⬡ *Exp* : %totalexp
 │ ⬡ *Level* : %level
@@ -27,8 +26,7 @@ const defaultMenu = {
 │ ⬡ *Premium* : ${global.prem ? 'Premium' : 'Gratisan'}
 ├─────────────────✽
 │⬡ *Uptime* : %uptime
-│⬡ *Baileys Version* : 08.06.10
-│⬡ *Version* : %version
+│⬡ *Baileys* : Baileys Multi Auth
 │⬡ *Database* : %rtotalreg dari %totalreg 
 │⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 │⬡ https://instagram.com/mursid.st
@@ -44,13 +42,13 @@ const defaultMenu = {
 │⬡ Nurutomo as wabot-aq
 │⬡ Istikmal as BochilGaming
 │⬡ Ariffb as stikerin
+│⬡ TioXd as BOTCAHX
 │⬡ Aguz Familia
 │⬡ Ziv San
 │⬡ The.sad.boy01
 │⬡ Nayla Hanifah
 │⬡ X-Team
 │⬡ Mark
-│⬡ BOTCAHX
 │⬡ AlyaaXd
 │⬡ Syahrul
 │⬡ Vanesha Desu
@@ -259,7 +257,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             surface : 1,
                             message: 'мυʀѕι∂ вσт-χмℓ',
                             orderTitle: 'Menu',
-                            thumbnail: await (await fetch('https://telegra.ph/file/46fd91bff28cd59c6659f.jpg')).buffer(),
+                            thumbnail: await (await fetch('https://telegra.ph/file/2a2fde2348eacf565445c.jpg')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
           
                           }
@@ -278,11 +276,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 "description": "Harap membaca Peraturan demi kenyamanan kita bersama",
                 "rowId": `${_p}rules`
               }, {
+                "title": "ᴛᴇꜱᴛ ᴘɪɴɢ",
+                "description": "Menampilkan kecepatan bot",
+                "rowId": `${_p}ping`
+              }, {
                 "title": "ᴅᴏɴᴀsɪ",
                 "description": "Dukung terus dengan cara berdonasi seikhlasnya, untuk mendukung agar bot berjalan 24 jam nonstop tanpa ada kendala",
                 "rowId": `${_p}donasi`
               }, {
-                "title": "ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴇᴍᴜᴀ",
+                "title": "ʙɪɢ ᴛʜᴀɴᴋꜱ ᴛᴏ",
                 "description": "Terimakasih atas dukungan dan support dari kalian, terimakasih banyak kepada pihak yang terkait dalam pembangunan мυʀѕι∂ вσт-χмℓ ",
                 "rowId": `${_p}tqto`
               }, {
@@ -290,11 +292,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan",
                 "rowId": `${_p}gcbot`
               }],
-              "title": `ѕємυα ρєʀιɴтαн мυʀѕι∂ вσт-χмℓ `
+              "title": `тαмριℓαɴ ѕємυα ρєʀιɴтαн мυʀѕι∂ вσт-χмℓ `
             }, {
               "rows": [{
                 "title": `sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ`,
-                "description": "Menu Semua Perintah",
+                "description": "Menu semua Perintah",
                 "rowId": `${_p}? all`
                 }],
               "title": "─────「 1 」"
@@ -391,7 +393,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
               "title": "─────「 14 」"
             }, {
               "rows": [{
-                "title": `ғᴜɴ`,
+                "title": `ᴍᴇɴᴜ ғᴜɴ`,
                 "description": "Menu Fun",
                 "rowId": `${_p}? fun`
               }],
@@ -455,7 +457,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             }
           ]
     const listMessage = {
-      text: `мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`.trim(),
+      text: `мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server RDP/VPS yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`.trim(),
       footer: wm,
       title: judul,
       buttonText: "Click Here",
@@ -517,10 +519,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'мυʀѕι∂ вσт-χмℓ ',  
-              body: 'ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙᴀɪʟʏᴇs ᴍᴜʟᴛɪ ᴀᴜᴛʜ', 
+              body: '𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧 𝗕𝗔𝗜𝗟𝗘𝗬𝗦 𝗠𝗨𝗟𝗧𝗜 𝗔𝗨𝗧𝗛', 
               description: 'мυʀѕι∂ вσт-χмℓ ', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/84fbf55d0df841cf8e5fb.jpg')).buffer(), 
+            thumbnail: await (await fetch('https://telegra.ph/file/be769802a4ae2696e6d67.jpg')).buffer(), 
            mediaUrl: `https://instagram.com/mursid.st` 
           }  
        }  
