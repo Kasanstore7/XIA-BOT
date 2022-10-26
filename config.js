@@ -8,7 +8,7 @@ global.mods = ['6288233832771']   // isi jika perlu
 global.prems = ['6288233832771']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
-global.nameowner = 'Mursid S' // isi nama kalian bebas
+global.nameowner = '𝙈𝙪𝙧𝙨𝙞𝙙 𝙎' // isi nama kalian bebas
 global.numberowner = '6288233832771' // isi nomor kalian dengan awalan seperti di contoh 
 global.dana = '6288233832771' // isi dengan nomor dana yg kamu punya 
 global.pulsa = '6289674452300' // isi dengan nomor pulsa hp kalian
@@ -30,8 +30,8 @@ global.wm4 = '2022'
 global.htki = '––––––「' 
 global.htka = '」––––––'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
-global.wait = 'тυɴggυ ѕє∂αɴg ∂ι ρʀσѕєѕ...'
-global.eror = 'ѕєʀνєʀ ѕє∂αɴg єʀʀσʀ'
+global.wait = 'ꜱᴇᴅᴀɴɢ ᴅɪᴘʀᴏꜱᴇꜱ...'
+global.eror = 'ꜱᴇʀᴠᴇʀ ᴇʀʀᴏʀ'
 global.benar = 'вєɴαʀ'
 global.salah = 'ѕαℓαн'
 global.stiker_wait = 'Loading...'
