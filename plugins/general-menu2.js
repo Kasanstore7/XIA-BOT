@@ -457,7 +457,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             }
           ]
     const listMessage = {
-      text: `мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server RDP/VPS yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`.trim(),
+      text: `мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server panel yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`.trim(),
       footer: wm,
       title: judul,
       buttonText: "Click Here",
@@ -519,10 +519,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'мυʀѕι∂ вσт-χмℓ ',  
-              body: '𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧 𝗕𝗔𝗜𝗟𝗘𝗬𝗦 𝗠𝗨𝗟𝗧𝗜 𝗔𝗨𝗧𝗛', 
+              body: 'ʙᴏᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴍᴜʟᴛɪ ᴀᴜᴛʜ', 
               description: 'мυʀѕι∂ вσт-χмℓ ', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/be769802a4ae2696e6d67.jpg')).buffer(), 
+            thumbnail: await (await fetch('https://telegra.ph/file/1fd27205dc7c39b26a1d7.jpg')).buffer(), 
            mediaUrl: `https://instagram.com/mursid.st` 
           }  
        }  
