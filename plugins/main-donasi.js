@@ -1,7 +1,7 @@
 const qrmursid = "https://telegra.ph/file/c8a8cabe89cda01e0fec9.jpg"
 
 let handler = async (m, { conn, usedPrefix }) => conn.sendButtonImg(m.chat, qrmursid, `
-┏──「 Donasi • E-money 」─⬣
+┏──「 *Donasi • E-money* 」─⬣
 │ • Gopay : 088233832771
 │ • Dana : 088233832771
 │ • Smartfren : 088233832771
@@ -11,8 +11,7 @@ let handler = async (m, { conn, usedPrefix }) => conn.sendButtonImg(m.chat, qrmu
 │ > Ingin donasi? wa.me/6288233832771
 │ _Hasil donasi akan digunakan buat sewa_
 │ _atau beli *RDP/VPS* agar bot bisa jalan_
-│ _24jam tanpa kendala, siapapun yang donasi_
-│ _akan saya kasih user premium selama 2 minggu_
+│ _24jam tanpa ada kendala sama sekali_
 ┗────────⬣
 `.trim(), wm, 'Menu', usedPrefix + 'menu', m) // Tambah sendiri kalo mau
 handler.help = ['donasi']
