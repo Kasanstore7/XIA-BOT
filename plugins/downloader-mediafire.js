@@ -4,12 +4,13 @@ if (!text) return m.reply(`Kirim perintah ${usedPrefix + command} *link mediafir
 if (!args[0].includes('mediafire.com')) return m.reply(error.linkmf)
 let mdjon = args.join(' ')
 res = await mediafireDl(mdjon)
-result = `「 *MEDIAFIRE DOWNLOAD* 」
+result = `「 *ᴍᴇᴅɪᴀꜰɪʀᴇ ᴅᴏᴡɴʟᴏᴀᴅ* 」
 *Data Berhasil Didapatkan!*
-🆔 Nama : ${res[0].nama}
-📊 Ukuran : ${res[0].size}
-💬 Link : ${res[0].link}
-_Tunggu Proses Upload Media_`
+*Nama* : ${res[0].nama}
+*Size File* : ${res[0].size}
+*Media Link* : ${res[0].link}
+*Powered By* : Mursid S
+_Tunggu Proses Upload Media Beberapa Detik_`
 m.reply(result)
 //await sleep(100)
 conn.sendFile(m.chat, res[0].link, res[0].nama, null, m, false, {asDocument:true, mimetype:res[0].mime})
