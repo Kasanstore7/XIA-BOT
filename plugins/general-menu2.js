@@ -25,8 +25,9 @@ const defaultMenu = {
 │ ⬡ *Role* : %role
 │ ⬡ *Premium* : ${global.prem ? 'Premium' : 'Gratisan'}
 ├─────────────────✽
-│⬡ *Uptime* : %uptime
 │⬡ *Baileys* : Baileys Multi Auth
+│⬡ *Uptime* : %uptime
+│⬡ *Owner* : Mursid S
 │⬡ *Database* : %rtotalreg dari %totalreg 
 │⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 │⬡ https://instagram.com/mursid.st
@@ -514,7 +515,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/7315762b1c5dd80f616b0.jpg')).buffer(), text, wm, 'ѕємυα ρєʀιɴтαн', '.menu', 'ρємιℓιк вσт', '.owner', m, {  
+    await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/8c0e68e653f2b9e09be77.jpg')).buffer(), text, wm, 'ѕємυα ρєʀιɴтαн', '.menu', 'ρємιℓιк вσт', '.owner', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
