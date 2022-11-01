@@ -7,7 +7,7 @@ conn.sendMessage(m.chat, {
   templateButtons: [{
     index: 1,
     urlButton: {
-      displayText: `Salin Link`,
+      displayText: `Copy Link`,
       url: 'https://www.whatsapp.com/otp/copy/https://chat.whatsapp.com/' + await conn.groupInviteCode(m.chat)
     }
   }],
@@ -15,7 +15,7 @@ conn.sendMessage(m.chat, {
 })
 
   } catch {
-    conn.reply(m.chat, `Jadikan @${conn.user.jid.split('@')[0]} sebagai admin untuk menggunakan perintah ini!`, m, { mentions: [conn.user.jid] })
+    conn.reply(m.chat, `Jadikan @${conn.user.jid.split('@')[0]} sebagai admin grup untuk menggunakan perintah ini!`, m, { mentions: [conn.user.jid] })
   }
 }
 handler.help = ['linkgroup']
