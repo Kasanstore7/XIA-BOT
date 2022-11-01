@@ -270,188 +270,188 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [{
                 "title": `ᴘᴇᴍɪʟɪᴋ ʙᴏᴛ`,
-                "description": "Nomor Pemilik Bot",
+                "description": "[ 👣 ] Nomor Pemilik Bot",
                 "rowId": `${_p}creator`
               }, {
                 "title": "sʏᴀʀᴀᴛ ᴋᴇᴛᴇɴᴛᴜᴀɴ ᴅᴀɴ ᴘᴇʀᴀᴛᴜʀᴀɴ",
-                "description": "Harap membaca Peraturan demi kenyamanan kita bersama",
+                "description": "[ ✍️ ] Harap membaca Peraturan demi kenyamanan kita bersama",
                 "rowId": `${_p}rules`
               }, {
-                "title": "ᴛᴇꜱᴛ ᴘɪɴɢ",
-                "description": "Menampilkan kecepatan bot",
+                "title": "ꜱᴘᴇᴇᴅ ʙᴏᴛ",
+                "description": "[ ⚡ ] Menampilkan kecepatan berjalan bot",
                 "rowId": `${_p}ping`
               }, {
                 "title": "ᴅᴏɴᴀsɪ",
-                "description": "Dukung terus dengan cara berdonasi seikhlasnya, untuk mendukung agar bot berjalan 24 jam nonstop tanpa ada kendala",
+                "description": "[ 🏝️ ] Dukung terus dengan cara berdonasi seikhlasnya, untuk mendukung agar bot berjalan 24 jam nonstop tanpa ada kendala",
                 "rowId": `${_p}donasi`
               }, {
-                "title": "ʙɪɢ ᴛʜᴀɴᴋꜱ ᴛᴏ",
-                "description": "Terimakasih atas dukungan dan support dari kalian, terimakasih banyak kepada pihak yang terkait dalam pembangunan мυʀѕι∂ вσт-χмℓ ",
+                "title": "ᴄʀᴇᴅɪᴛ",
+                "description": "[ 🪧 ] Terimakasih atas dukungan dan support dari kalian, terimakasih banyak kepada pihak yang terkait dalam pembangunan мυʀѕι∂ вσт-χмℓ ",
                 "rowId": `${_p}tqto`
               }, {
-                "title": "ɢʀᴜᴘ ʙᴏᴛ ᴏғғɪᴄɪᴀʟ",
-                "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan",
+                "title": "ɢʀᴜᴘ ʙᴏᴛ",
+                "description": "[ 📚 ] Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan",
                 "rowId": `${_p}gcbot`
               }],
               "title": `тαмριℓαɴ ѕємυα ρєʀιɴтαн мυʀѕι∂ вσт-χмℓ `
             }, {
               "rows": [{
-                "title": `sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ`,
-                "description": "Menu semua Perintah",
+                "title": `ѕємυα ρєʀιɴтαн`,
+                "description": "[ 🎭 ] Menu Semua Perintah",
                 "rowId": `${_p}? all`
                 }],
               "title": "─────「 1 」"
             }, {
               "rows": [{
-                "title": `ɢᴀᴍᴇ`,
-                "description": "Menu untuk Game",
+                "title": `ᴍᴇɴυ gαмє`,
+                "description": "[ 💬 ] Menu Untuk Game",
                 "rowId": `${_p}? game`
               }],
               "title": "─────「 2 」"
             }, {
               "rows": [{
-                "title": `ᴇxᴘ`,
-                "description": "Menu untuk XP",
+                "title": `ᴍᴇɴυ єχρ`,
+                "description": "[ 🚀 ] Menu Untuk EXP",
                 "rowId": `${_p}? xp`
               }],
               "title": "─────「 3 」"
             }, {
               "rows": [{
-                "title": `sᴛɪᴋᴇʀ`,
-                "description": "Menu untuk Sticker",
+                "title": `ѕтɪᴄᴋᴇʀ`,
+                "description": "[ 🐾 ] Menu Untuk Sticker",
                 "rowId": `${_p}? stiker`
               }],
               "title": "─────「 4 」"
             }, {
               "rows": [{
-                "title": `ᴋᴇʀᴀɴɢ ᴀᴊᴀɪʙ`,
-                "description": "Menu kerang ajaib...",
+                "title": `кєʀαɴg αᴊαιв`,
+                "description": "[ 📝 ] Kerang Ajaib",
                 "rowId": `${_p}? kerangajaib`
               }],
               "title": "─────「 5 」"
             }, {
               "rows": [{
-                "title": `ǫᴜᴏᴛᴇs`,
-                "description": "Menu untuk Quotes",
+                "title": `qυσтєѕ`,
+                "description": "[ ⚔️ ] Menu Untuk Quotes",
                 "rowId": `${_p}? quotes`
               }],
               "title": "─────「 6 」"
             }, {
               "rows": [{
-                "title": `ᴀᴅᴍɪɴ`,
-                "description": "Menu untuk Admin",
+                "title": `α∂мιɴ`,
+                "description": "[ ⚙️ ] Menu Untuk Admin",
                 "rowId": `${_p}? admin`
               }],
               "title": "─────「 7 」"
             }, {
               "rows": [{
-                "title": `ɢʀᴜᴘ`,
-                "description": "Menu untuk Group",
+                "title": `gʀυρ`,
+                "description": "[ ⛽ ] Menu Untuk Group",
                 "rowId": `${_p}? group`
               }],
               "title": "─────「 8 」"
             }, {
               "rows": [{
-                "title": `ᴘʀᴇᴍɪᴜᴍ`,
-                "description": "Menu untuk Premium Users",
+                "title": `ρʀємιυм`,
+                "description": "[ 🖥️ ] Menu Untuk Premium Users",
                 "rowId": `${_p}? premium`
               }],
               "title": "─────「 9 」"
             }, {
               "rows": [{
-                "title": `ɪɴᴛᴇʀɴᴇᴛ`,
-                "description": "Menu untuk Internet",
+                "title": `ɪɴтєяɴєт`,
+                "description": "[ 📞 ] Menu untuk Internet",
                 "rowId": `${_p}? internet`
               }],
               "title": "─────「 10 」"
             }, {
               "rows": [{
-                "title": `ᴀɴᴏɴʏᴍᴏᴜs ᴄʜᴀᴛ`,
-                "description": "Menu untuk Anonymous Chat",
+                "title": `αɴσɴумσυѕ ᴄнαт`,
+                "description": "[ 🎯 ] Menu Untuk Anonymous Chat",
                 "rowId": `${_p}? anonymous`
               }],
               "title": "─────「 11 」"
             }, {
               "rows": [{
-                "title": `ɴᴜʟɪs & ʟᴏɢᴏ`,
-                "description": "Menu untuk Nulis & Logo",
+                "title": `мєɴυ ɴυℓιѕ & ℓσgσ`,
+                "description": "[ 📑 ] Menu Nulis & Logo",
                 "rowId": `${_p}? nulis`
               }],
               "title": "─────「 12 」"
             }, {
               "rows": [{
-                "title": `ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
-                "description": "Menu Downloader",
+                "title": `мєɴυ ∂σᴡɴℓσα∂єя`,
+                "description": "[ ✈️ ] Menu Downloader",
                 "rowId": `${_p}? downloader`
               }],
               "title": "─────「 13 」"
             }, {
               "rows":[{
-                "title": `ᴛᴏᴏʟs`,
-                "description": "Menu untuk Tools",
+                "title": `тσσℓѕ`,
+                "description": "[ 🎸 ] Menu untuk Tools",
                 "rowId": `${_p}? tools`
               }],
               "title": "─────「 14 」"
             }, {
               "rows": [{
-                "title": `ᴍᴇɴᴜ ғᴜɴ`,
-                "description": "Menu Fun",
+                "title": `мєɴυ ƒυɴ`,
+                "description": "[ 📪 ] Menu Fun",
                 "rowId": `${_p}? fun`
               }],
               "title": "─────「 15 」"
             }, {
               "rows": [{
-                "title": `ᴅᴀᴛᴀʙᴀsᴇ`,
-                "description": "Menu untuk Database",
+                "title": `∂αтαвαѕє вσт`,
+                "description": "[ 📊 ] Menu untuk Database",
                 "rowId": `${_p}? database`
               }],
               "title": "─────「 16 」"
             }, {
               "rows": [{
-                "title": `ᴠᴏᴛᴇ & ᴀʙsᴇɴ`,
-                "description": "Menu untuk Vote & Absen",
+                "title": `νσтє & αвѕєɴ`,
+                "description": "[ 🎖️ ] Menu untuk Vote & Absen",
                 "rowId": `${_p}? vote`
               }],
               "title": "─────「 17 」"
             }, {
               "rows": [{
-                "title": `ɪsʟᴀᴍɪᴄ`,
-                "description": "Menu Islamic",
+                "title": `мєɴυ ιѕℓαм`,
+                "description": "[ 🕋 ] Menu Islamic",
                 "rowId": `${_p}? islamic`
               }],
               "title": "─────「 18 」"
             }, {
               "rows": [{
-                "title": `ᴘᴇɴɢᴜʙᴀʜ sᴜᴀʀᴀ`,
-                "description": "Menu Pengubah Suara",
+                "title": `ρєɴgυвαн ѕυαʀα`,
+                "description": "[ 🎙️ ] Menu Pengubah Suara",
                 "rowId": `${_p}? audio`
               }],
               "title": "─────「 19 」"
             }, {
               "rows": [{
-                "title":  `ᴊᴀᴅɪ ʙᴏᴛ`,
-                "description": "Menu jadibot/belum tersedia",
+                "title":  `ᴊα∂ι вσт`,
+                "description": "[ 🖨️ ] Menu jadibot/belum tersedia",
                 "rowId": `${_p}? jadibot`
               }],
               "title": "─────「 20 」"
             }, {
               "rows": [{
-                "title": `ɪɴғᴏ`,
-                "description": "Menu untuk Info",
+                "title": `ɪɴƒσ`,
+                "description": "[ 🔩 ] Menu untuk Info",
                 "rowId": `${_p}? info`
               }],
               "title": "─────「 21 」"
             }, {
               "rows": [{
-                "title": `ᴛᴀɴᴘᴀ ᴋᴀᴛᴇɢᴏʀɪ`,
-                "description": "Menu Tanpa Kategori",
+                "title": `тαɴρα кαтєgσʀɪ`,
+                "description": "[ 🔌 ] Menu Tanpa Kategori",
                 "rowId": `${_p}? tanpakategori`
               }],
               "title": "─────「 22 」"
             }, {
               "rows": [{
-                "title":  `ᴏᴡɴᴇʀ`,
-                "description": "Menu Khusus Owner",
+                "title":  `σᴡɴєʀ`,
+                "description": "[ 🔊 ] Menu Khusus Owner",
                 "rowId": `${_p}? owner`
               }],
               "title": "─────「 23 」"
