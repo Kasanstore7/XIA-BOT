@@ -1,7 +1,7 @@
 let fs = require('fs')
 let handler = async (m, { conn }) => {
 let anu = `
-мυʀѕι∂ вσт-χмℓ
+   *мυʀѕι∂ вσт-χмℓ*
 
    *SEWA BOT GRUP*
 1. Grup/60 Hari Rp 20,000 Dana
@@ -33,9 +33,9 @@ let anu = `
    Grup/Feee Trial Rp 00,000 ( Request )
    Grup/Free Trial Rp 00,000  ( Request )
 
-[ 🚀 ] *NOTE* : Tidak melayani sewa bot permanen
+*NOTE* : Tidak melayani sewa bot permanen
 
-Grup Bot : 
+*GRUP BOT* : 
 https://chat.whatsapp.com/FhSBFvhtzfN5hIVe1GXAfj
 
 wa.me/6288233832771 ( Mursid S )
