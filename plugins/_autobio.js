@@ -1,14 +1,13 @@
-// anu anunya ada di sini
 let fs = require('fs')
 let fetch = require('node-fetch')
 let handler = m => m
-
+const status = db.data.settings[conn.user.jid] = 0
     // update status
-if (new Date() * 1 - setting.status > 1000) {
+if (new Date() * 1 - status > 1000) {
         let uptime = clockString(_uptime);
 		let bio = `Aktif selama ${uptime}`
 		await conn.setBio(bio).catch(_ => _)
-        setting.status = new Date() * 1
+        status = new Date() * 1
     }
 
 }
