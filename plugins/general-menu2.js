@@ -258,7 +258,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             surface : 1,
                             message: 'мυʀѕι∂ вσт-χмℓ',
                             orderTitle: 'Menu',
-                            thumbnail: await (await fetch('https://telegra.ph/file/2a2fde2348eacf565445c.jpg')).buffer(),
+                            thumbnail: await (await fetch('https://telegra.ph/file/0c7944e2159f74fa2397b.jpg')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
           
                           }
