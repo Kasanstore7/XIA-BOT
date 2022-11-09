@@ -4,8 +4,8 @@ if (!args[0]) throw `contoh:\n ${usedPrefix}${command} https://vm.tiktok.com/ZGJ
 let tio = (await https.get(API('males', '/tiktok', { url: args[0] } ))).data;
 if (tio.status != 200) throw tio.message;
 if (!tio) throw tio.message;
- let hasilnya = `*Title :*${tio.title}\n\n*Author:*${tio.author}\n\n*Powered By* : *Mursid S*`
-  conn.sendButtonVid(m.chat, tio.video, hasilnya, wm, `Back`, `.menu`, m)
+ let hasilnya = `*Title* : *${tio.title}*\n\n*Author* : *${tio.author}*\n\n*Powered By* : *Mursid S*`
+  conn.sendButtonVid(m.chat, tio.video, hasilnya, wm, `Menu`, `.menu`, m)
         }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
