@@ -1,4 +1,6 @@
 //ubah no lu biar ada owner nya
+//jan di jual kontoll
+//sc ini freee
 let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
@@ -7,7 +9,7 @@ FN: Mursid S
 item.ORG: ᴏᴡɴᴇʀ ʙᴏᴛ
 item1.TEL;waid=6288233832771:6288233832771@s.whatsapp.net
 item1.X-ABLabel:ᴅᴇᴠᴇʟᴏᴘᴇʀ мυʀѕι∂ вσт-χмℓ
-item2.EMAIL;type=INTERNET:ᴅᴇᴠᴇʟᴏᴘᴇʀ ʙᴏᴛ ᴡʜᴀᴛꜱᴀᴘᴘ
+item2.EMAIL;type=INTERNET:Phone
 item2.X-ABLabel:Website
 item3.ADR:;Yogykarta;
 item3.X-ABADR:ʏᴏɢʏᴋᴀʀᴛᴀ
@@ -26,7 +28,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-conn.sendMessage(m.chat, { text: `𝙃𝙖𝙮 𝙠𝙖𝙠 *@${await m.sender.split('@')[0]}*, 𝙞𝙩𝙪 𝙤𝙬𝙣𝙚𝙧𝙠𝙪, 𝙟𝙖𝙣𝙜𝙖𝙣 𝙙𝙞𝙨𝙥𝙖𝙢 𝙮𝙖𝙝`, mentions: [m.sender] }, { quoted: sentMsg })
+conn.sendMessage(m.chat, { text: `Hay kak *@${await m.sender.split('@')[0]}*, itu ownerku, jangan spam yah >_<`, mentions: [m.sender] }, { quoted: sentMsg })
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
