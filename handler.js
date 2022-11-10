@@ -692,18 +692,15 @@ module.exports = {
         if (opts['self']) return
         // if (id in conn.chats) return // First login will spam
         if (global.isInit) return
-        let chat = db.data.chats[id] || {}
+        let chat = global.db.data.chats[id] || {}
         let text = ''
         switch (action) {
             case 'add':
             case 'remove':
-		case 'leave':
-		case 'invite':
-		case 'invite_v4':
-            if (chat.welcome) {
+                if (chat.welcome) {
                     let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
                     for (let user of participants) {
-                        let pp = 'https://telegra.ph/file/2d06f0936842064f6b3bb.png'
+                        let pp = 'https://telegra.ph/file/c9c606d791e8c3164a261.jpg'
                         try {
                             pp = await this.profilePictureUrl(user, 'image')
                         } catch (e) {
@@ -714,18 +711,18 @@ module.exports = {
                             let wel = API('males', '/welcome2', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/c538a6f5b0649a7861174.png',
+                                background: 'https://i.ibb.co/z2QQnqm/wp.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
                             let lea = API('males', '/goodbye2', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/c538a6f5b0649a7861174.png',
+                                background: 'https://i.ibb.co/z2QQnqm/wp.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-                            await this.send3TemplateButtonImg(id, action === 'add' ? wel : lea, text, wm, action === 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'FokusID')
+                            await this.sendButtonImg(id, action === 'add' ? wel : lea, text, wm, action === 'add' ? 'Welcome' : 'Good Bye', action === 'add' ? '.intro' : '-') 
                         }
                     }
                 }
@@ -772,7 +769,7 @@ global.dfail = (type, m, conn) => {
         private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
         admin: 'Perintah ini hanya untuk *Admin* grup!',
         botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Mursid S.17*',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar mark.20*',
         restrict: 'Fitur ini di *disable*!'
     }[type]
     if (msg) return m.reply(msg)
