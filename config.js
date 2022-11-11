@@ -1,6 +1,6 @@
 //Ini untuk setting Bot
 //Untuk gambar background menu ada -
-//Dalam file _menunya.js
+//RECODE BY MURSID
 
 //『 Utama 』 //
 global.owner = ['6288233832771']  // isi jika perlu
@@ -37,6 +37,7 @@ global.salah = 'ѕαℓαн'
 global.stiker_wait = 'Loading...'
 global.packname = 'sᴛɪᴄᴋᴇʀ ʙʏ'
 global.author = 'мυʀѕι∂ вσт-χмℓ'
+global.mursid = 'мυʀѕι∂ вσт-χмℓ'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
