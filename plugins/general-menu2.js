@@ -528,7 +528,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 'title': 'мυʀѕι∂ вσт-χмℓ',
 'body':'ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ʙʏ ᴍᴜʀꜱɪᴅ',
 'mediaType': 1,
-'thumbnail': await(await fetch('https://telegra.ph/file/65cfe3190a3e5fc478fde.jpg')).buffer(),
+'thumbnail': await(await fetch('https://telegra.ph/file/427822da10efced35a1f0.jpg')).buffer(),
 'sourceUrl':'https://instagram.com/mursid.st'}},
 'caption': text,
 'footer': wm,
