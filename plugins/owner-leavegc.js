@@ -1,12 +1,16 @@
 let handler = async (m, { conn, args, command }) => {
-  let group = m.chat;
-  await m.reply("Sayonara , , ! (≧ω≦)ゞ");
-  await conn.groupLeave(group);
-};
-handler.help = ["leavegc", "out"];
-handler.tags = ["owner"];
-handler.command = /^(out|leavegc)$/i;
+	let group = m.chat
+        await m.reply('Byee👋', m.chat) 
+        await conn.delay(1000)
+        await conn.groupLeave(group)
+        }
+    
+handler.help = ['group'].map(v => 'leave' + v)
+handler.tags = ['group']
+handler.command = /^leaveg(c|ro?up)(all|semua)?$/i
 
-handler.owner = true;
-handler.group = true;
-module.exports = handler;
+handler.rowner = true
+
+module.exports = handler
+
+const delay = time => new Promise(res => setTimeout(res, time)) 
