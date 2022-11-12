@@ -16,7 +16,7 @@ global.gopay = '6288233832771'
 
 //Name Bot & Grouplink//
 global.namebot = 'мυʀѕι∂ вσт-χмℓ'
-global.gc = 'https://chat.whatsapp.com/FhSBFvhtzfN5hIVe1GXAfj'
+global.gc = 'https://chat.whatsapp.com/D8yjEn4OAcJ4Pe41pjPDFB'
 global.web = 'https://instagram.com/mursid.st' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 
 //Tanpilan wm Bot //
