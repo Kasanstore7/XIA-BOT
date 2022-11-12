@@ -9,7 +9,7 @@ FN: Mursid S
 item.ORG: ᴏᴡɴᴇʀ ʙᴏᴛ
 item1.TEL;waid=6288233832771:6288233832771@s.whatsapp.net
 item1.X-ABLabel:ᴅᴇᴠᴇʟᴏᴘᴇʀ мυʀѕι∂ вσт-χмℓ
-item2.EMAIL;type=INTERNET:Phone
+item2.EMAIL;type=INTERNET:https://github.com/mursidxml
 item2.X-ABLabel:Website
 item3.ADR:;Yogykarta;
 item3.X-ABADR:ʏᴏɢʏᴋᴀʀᴛᴀ
