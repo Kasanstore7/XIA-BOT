@@ -17,7 +17,7 @@ const defaultMenu = {
 ││⬡ *Tanggal* : %date
 ││⬡ *Hari* : %week %weton
 │└────────────────✽
-│ ⬡ *Time* : %time Asia Jakarta
+│ ⬡ *Time* : %time WIB
 │ ⬡ *Pengguna* : %name 
 │ ⬡ *Limit* : %limit
 │ ⬡ *Exp* : %totalexp
@@ -533,9 +533,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 'caption': text,
 'footer': wm,
 'buttons':[
+{'buttonId':'.menu','buttonText':{'displayText': 'ѕємυα ρєʀιɴтαн'},'type':1},
 {'buttonId':'.owner','buttonText':{'displayText': 'ρємιℓιк вσт'},'type':1},
 {'buttonId':'.rules','buttonText':{'displayText': 'ʀυℓєѕ вσт'},'type':1},
-{'buttonId':'.donasi','buttonText':{'displayText': 'ᴅσɴαѕι'},'type':1},
 
 ],
 'headerType':6}
