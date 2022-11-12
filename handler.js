@@ -700,7 +700,7 @@ module.exports = {
                 if (chat.welcome) {
                     let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
                     for (let user of participants) {
-                        let pp = 'https://telegra.ph/file/c9c606d791e8c3164a261.jpg'
+                        let pp = 'https://telegra.ph/file/2d06f0936842064f6b3bb.png'
                         try {
                             pp = await this.profilePictureUrl(user, 'image')
                         } catch (e) {
@@ -711,14 +711,14 @@ module.exports = {
                             let wel = API('males', '/welcome2', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/74726473af23983097b0c.jpg',
+                                background: 'https://telegra.ph/file/c538a6f5b0649a7861174.png',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
                             let lea = API('males', '/goodbye2', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/74726473af23983097b0c.jpg',
+                                background: 'https://telegra.ph/file/c538a6f5b0649a7861174.png',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
