@@ -6,37 +6,37 @@ let moment = require('moment-timezone')
 let jimp = require('jimp')
 let PhoneNumber = require('awesome-phonenumber')
 const defaultMenu = {
-  before: `┌───────────────────⬣
-│           *мυʀѕι∂ вσт-χмℓ*
-└┬────────────────✽  
-┌┤⬡ *Nama* : %name
-││⬡ *Role* : %role
-││⬡ *Level* : %level %exp / %maxexp
-││⬡ *Total Xp* : %totalexp XP
-││⬡ *Tanggal Islam* : %dateIslamic
-││⬡ *Tanggal* : %date
-││⬡ *Hari* : %week %weton
-│└────────────────✽
-│ ⬡ *Time* : %time WIB
-│ ⬡ *Pengguna* : %name 
-│ ⬡ *Limit* : %limit
-│ ⬡ *Exp* : %totalexp
-│ ⬡ *Level* : %level
-│ ⬡ *Role* : %role
-│ ⬡ *Premium* : ${global.prem ? 'Premium' : 'Gratisan'}
-├─────────────────✽
-│⬡ *Baileys* : Baileys Multi Auth
-│⬡ *Uptime* : %uptime
-│⬡ *Owner* : Mursid S
-│⬡ *Database* : %rtotalreg dari %totalreg 
-│⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-│⬡ https://instagram.com/mursid.st
-└───────────────────⬣`.trim(),
+  before: `
+┏━━━━━━━━━━━━━━━━━⬣    
+┃      *мυʀѕι∂ вσт-χмℓ*   
+┗┳━━━━━━━━━━━━━━✽
+┏┃⬡ *Nama* : %name
+┃┃⬡ *Role* : %role
+┃┃⬡ *Level* : %level %exp / %maxexp
+┃┃⬡ *Total Xp* : %totalexp XP
+┃┃⬡ *Tanggal Islam* : %dateIslamic
+┃┃⬡ *Tanggal* : %date
+┃┃⬡ *Hari* : %week %weton
+┃┣━━━━━━━━━━━━━✽
+┃┃⬡ *Time* : %time WIB
+┃┃⬡ *Pengguna* : %name 
+┃┃⬡ *Limit* : %limit
+┃┃⬡ *Exp* : %totalexp
+┃┃⬡ *Level* : %level
+┃┃⬡ *Role* : %role
+┃┃⬡ *Premium* : ${global.prem ? 'Premium' : 'Gratisan'}
+┃┣━━━━━━━━━━━━━✽
+┃┃⬡ *Uptime* : %uptime
+┃┃⬡ *Registrasi* : %rtotalreg 
+┃┃⬡ *Database* : %totalreg
+┃┃⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+┃┃⬡ https://instagram.com/mursid.st
+┗┗━━━━━━━━━━━━━━━━⬣`.trim(),
   header: '┌──「 *%category* 」──⬣',
   body: '│⬡ %cmd %islimit %isPremium',
-  footer: '└──────────⬣\n',
+  footer: '└────────⬣\n',
   after: `
-┌──「 *BIG THANKS TO* 」──⬣
+┌─「 *BIG THANKS TO* 」
 │⬡ Allah SWT
 │⬡ Adiwajshing
 │⬡ Nurutomo as wabot-aq
@@ -59,7 +59,7 @@ const defaultMenu = {
 │⬡ Mursid S
 │⬡ All Creator Bot
 │⬡ Para Donasi
-└──────────⬣
+└────────⬣
 
 *%npmname@^%version*
 ${'```%npmdesc```'}
@@ -257,13 +257,16 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             surface : 1,
                             message: 'мυʀѕι∂ вσт-χмℓ',
                             orderTitle: 'Menu',
-                            thumbnail: await (await fetch('https://telegra.ph/file/0c7944e2159f74fa2397b.jpg')).buffer(),
+                            thumbnail: await (await fetch('https://telegra.ph/file/0f4735c83ac972f3ac77f.jpg')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
           
                           }
                         }
                       }
+                      let hao = ` *Official Bot By @${"0".split("@")[0]}* 
+ *Powered By @${owner[0].split("@")[0]}*`
     if (teks == '404') {
+    	
       let judul = `${ucapan()}, ${name}`.trim()
       const sections = [
             {
@@ -457,13 +460,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             }
           ]
     const listMessage = {
-      text: `мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server panel yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`.trim(),
+      text: `мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`.trim(),
       footer: wm,
       title: judul,
       buttonText: "Click Here",
       sections
     }
-    return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
+    return conn.sendMessage(m.chat, listMessage, { quoted: ftroli, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
     
     }
 
@@ -518,20 +521,21 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 'document':{'url': 'https://github.com/Botcahx' },
 'mimetype':'application/pdf',
 'fileName':'мυʀѕι∂ вσт-χмℓ',
-'jpegThumbnail': await(await fetch('https://telegra.ph/file/26b793f8427685e7fd668.jpg')).buffer(),
+'jpegThumbnail': await(await fetch('https://telegra.ph/file/d5757150fdc0a4788350c.jpg')).buffer(),
 'fileLength':'99999999999999',
 'pageCount':'1630173',
 'contextInfo':{
 'externalAdReply':{
-'showAdAttribution': true, 
+'showAdAttribution': true,
 'renderLargerThumbnail': true,
 'title': 'мυʀѕι∂ вσт-χмℓ',
 'body':'ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ʙʏ ᴍᴜʀꜱɪᴅ',
 'mediaType': 1,
-'thumbnail': await(await fetch('https://telegra.ph/file/427822da10efced35a1f0.jpg')).buffer(),
+'thumbnail': await(await fetch('https://telegra.ph/file/5698587cf7cac2d860fd4.jpg')).buffer(),
 'sourceUrl':'https://instagram.com/mursid.st'}},
 'caption': text,
-'footer': wm,
+'footer': hao,
+'mentions': await conn.parseMention(hao),
 'buttons':[
 {'buttonId':'.menu','buttonText':{'displayText': 'ѕємυα ρєʀιɴтαн'},'type':1},
 {'buttonId':'.owner','buttonText':{'displayText': 'ρємιℓιк вσт'},'type':1},
