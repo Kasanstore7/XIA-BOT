@@ -711,14 +711,14 @@ module.exports = {
                             let wel = API('males', '/welcome2', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/c538a6f5b0649a7861174.png',
+                                background: 'https://telegra.ph/file/17a6b971cb1738fa0d819.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
                             let lea = API('males', '/goodbye2', {
                                 profile: pp,
                                 username: await this.getName(user),
-                                background: 'https://telegra.ph/file/c538a6f5b0649a7861174.png',
+                                background: 'https://telegra.ph/file/17a6b971cb1738fa0d819.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
