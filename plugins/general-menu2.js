@@ -7,19 +7,37 @@ let jimp = require('jimp')
 let PhoneNumber = require('awesome-phonenumber')
 const defaultMenu = {
   before: `
-╭─「 %me 」
-│⬡ *Hai* : %name!
-│⬡ *Limit* : %limit Limit
-│⬡ *Role* : %role
-│⬡ *Level* : %level
-│⬡ *Exp* : %totalexp
-│⬡ *Tanggal* : %date
-│⬡ *Waktu* : %time
-│⬡ *Uptime* : %uptime
-╰────`.trim(),
+┌─────────────────┐
+          *мυʀѕι∂ вσт-χмℓ*      
+└┬────────────────┘ 
+┌┤⬡ *Nama* : %name
+││⬡ *Role* : %role
+││⬡ *Level* : %level %exp / %maxexp
+││⬡ *Total Xp* : %totalexp XP
+││⬡ *Tanggal Islam* : %dateIslamic
+└┤⬡ *Tanggal* : %date
+┌┤⬡ *Hari* : %week %weton
+│├───────────────
+││⬡ *Time* : %time WIB
+││⬡ *Pengguna* : %name 
+││⬡ *Limit* : %limit
+└┤⬡ *Level* : %level
+┌┤⬡ *Premium* : ${global.prem ? 'Premium' : 'Gratisan'}
+││⬡ *Role* : %role
+│├───────────────
+││⬡ *Uptime* : %uptime
+││⬡ *Registrasi* : %rtotalreg
+││⬡ *Database* : %totalreg 
+││⬡ *Version* %version
+││⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+││⬡ *Instagram* :
+└┤⬡ https://instagram.com/mursid.st
+┌┴────────────────┐
+            *ву мυʀѕι∂-χмℓ*
+└─────────────────┘`.trim(),
   header: '┌──「 *%category* 」──⬣',
   body: '│⬡ %cmd %islimit %isPremium',
-  footer: '└────────⬣\n',
+  footer: '└─────────⬣\n',
   after: `
 ┌─「 *BIG THANKS TO* 」
 │⬡ Allah SWT
