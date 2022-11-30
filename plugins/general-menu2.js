@@ -7,9 +7,9 @@ let jimp = require('jimp')
 let PhoneNumber = require('awesome-phonenumber')
 const defaultMenu = {
   before: `
-┌─────────────────┐
-          *мυʀѕι∂ вσт-χмℓ*      
-└┬────────────────┘ 
+┌─────────────────⬣
+│        *мυʀѕι∂ вσт-χмℓ*      
+└┬─────────────── 
 ┌┤⬡ *Nama* : %name
 ││⬡ *Role* : %role
 ││⬡ *Level* : %level %exp / %maxexp
@@ -22,7 +22,7 @@ const defaultMenu = {
 ││⬡ *Pengguna* : %name 
 ││⬡ *Limit* : %limit
 └┤⬡ *Level* : %level
-┌┤⬡ *Premium* : ${global.prem ? 'Premium' : 'Gratisan'}
+┌┤⬡ *Premium* : ${global.prem ? 'Ya' : 'Tidak'}
 ││⬡ *Role* : %role
 │├───────────────
 ││⬡ *Uptime* : %uptime
@@ -30,11 +30,8 @@ const defaultMenu = {
 ││⬡ *Database* : %totalreg 
 ││⬡ *Version* %version
 ││⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-││⬡ *Instagram* :
-└┤⬡ https://instagram.com/mursid.st
-┌┴────────────────┐
-            *ву мυʀѕι∂-χмℓ*
-└─────────────────┘`.trim(),
+││⬡ https://instagram.com/mursid.st
+└┴────────────────⬣`.trim(),
   header: '┌──「 *%category* 」──⬣',
   body: '│⬡ %cmd %islimit %isPremium',
   footer: '└─────────⬣\n',
@@ -582,18 +579,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari"
+  res = "Good morning"
   if (time >= 4) {
-    res = "Selamat pagi"
+    res = "Good morning"
   }
   if (time > 10) {
-    res = "Selamat siang"
+    res = "Good afternoon"
   }
   if (time >= 15) {
-    res = "Selamat sore"
+    res = "Good afternoon"
   }
   if (time >= 18) {
-    res = "Selamat malam"
+    res = "Good night"
   }
   return res
 }
