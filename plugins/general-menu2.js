@@ -8,16 +8,16 @@ let PhoneNumber = require('awesome-phonenumber')
 const defaultMenu = {
   before: `
 ┌─────────────────⬣
-│        *мυʀѕι∂ вσт-χмℓ*      
-└┬─────────────── 
-┌┤⬡ *Nama* : %name
+││  *мυʀѕι∂ вσт-χмℓ*   
+││   
+││⬡ *Nama* : %name
 ││⬡ *Role* : %role
 ││⬡ *Level* : %level %exp / %maxexp
 ││⬡ *Total Xp* : %totalexp XP
 ││⬡ *Tanggal Islam* : %dateIslamic
 └┤⬡ *Tanggal* : %date
 ┌┤⬡ *Hari* : %week %weton
-│├───────────────
+││
 ││⬡ *Time* : %time WIB
 ││⬡ *Pengguna* : %name 
 ││⬡ *Limit* : %limit
