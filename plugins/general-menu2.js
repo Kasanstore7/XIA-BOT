@@ -257,7 +257,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             itemCount : 9999999999999,
                             status: 1,
                             surface : 1,
-                            message: 'мυʀѕι∂ вσт-χмℓ',
+                            message: '「 Saxia˘Botz 」',
                             orderTitle: 'Menu',
                             thumbnail: await (await fetch('https://telegra.ph/file/46fd91bff28cd59c6659f.jpg')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
@@ -270,27 +270,27 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       const sections = [
             {
               "rows": [{
-                "title": `『👻』ᴘᴇᴍɪʟɪᴋ ʙᴏᴛ`,
+                "title": `【👻】ᴘᴇᴍɪʟɪᴋ ʙᴏᴛ`,
                 "description": "Nomor Pemilik Bot",
                 "rowId": `${_p}creator`
               }, {
-                "title": "『♨️』sʏᴀʀᴀᴛ ᴋᴇᴛᴇɴᴛᴜᴀɴ ᴅᴀɴ ᴘᴇʀᴀᴛᴜʀᴀɴ",
-                "description": "Harap  dibaca Peraturan demi kenyamanan kita bersama",
-                "rowId": `${_p}rules`
+                "title": "【🎗️】Sewa Botz",
+                "description": "Ayo Sewa Botz Di Sini",
+                "rowId": `${_p}Sewa`
               }, {
-                "title": "『💸』ᴅᴏɴᴀsɪ",
-                "description": "Ayo Donasi Xia, untuk mendukung ine 24 jam nonstop tanpa ada kendala",
+                "title": "【💸】ᴅᴏɴᴀsɪ",
+                "description": "Ayo Donasi Xia, untuk mendukung Onine 24 jam nonstop tanpa ada kendala",
                 "rowId": `${_p}donasi`
               }, {
-                ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴇᴍᴜᴀ",
+                "title": "【🎁】ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴇᴍᴜᴀ",
                 "description": "Terimakasih atas dukungan dan support dari kalian, terimakasih banyak kepada pihak yang terkait dalam pembangunan мυʀѕι∂ вσт-χмℓ ",
                 "rowId": `${_p}tqto`
               }, {
-                "title": "ɢʀᴜᴘ ʙᴏᴛ ᴏғғɪᴄɪᴀʟ",
+                "title": "【🪐】ɢʀᴜᴘ ʙᴏᴛ ᴏғғɪᴄɪᴀʟ",
                 "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan",
                 "rowId": `${_p}gcbot`
               }],
-              "title": `ALL MENU BOTZ`
+              "title": `❏ ALL MENU ❏`
             }, {
               "rows": [{
                 "title": `⻝ sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ ⻝`,
@@ -378,7 +378,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             }
           ]
     const listMessage = {
-      text: `мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`.trim(),
+      text: `https://ẉbit.ly/\nSaxia˘Botz adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan Panel By: Danz-Bot, Dan Bot ini bisa Membantu mu untuk Download Vidio Tiktok,Ig,Dan lain lain. Kalian Juga Bisa Main Game RPG dI Bot ini.`.trim(),
       footer: wm,
       title: judul,
       buttonText: "Click Here",
@@ -435,23 +435,23 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/7315762b1c5dd80f616b0.jpg')).buffer(), text, wm, 'ѕємυα ρєʀιɴтαн', '.menu', 'ρємιℓιк вσт', '.owner', m, {  
+    await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/adf33813437e2855a5078.jpg')).buffer(), text, wm, 'ѕємυα ρєʀιɴтαн', '.menu', 'ρємιℓιк вσт', '.owner', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
-              title: 'мυʀѕι∂ вσт-χмℓ ',  
+              title: '「 Saxia˘Botz 」',  
               body: 'ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙᴀɪʟʏᴇs ᴍᴜʟᴛɪ ᴀᴜᴛʜ', 
-              description: 'мυʀѕι∂ вσт-χмℓ ', 
+              description: 'Saxia˘Botz', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/84fbf55d0df841cf8e5fb.jpg')).buffer(), 
+            thumbnail: await (await fetch('https://telegra.ph/file/adf33813437e2855a5078.jpg')).buffer(), 
            mediaUrl: `https://instagram.com/mursid.st` 
           }  
        }  
       })
-//await conn.send2ButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/263582cc62fcfbdacd094.jpg')).buffer(),  '*────────[ DASBOARD ]───────*', text, 'ᴅσɴαѕι', '.donasi', 'ρємιℓιк вσт', '.owner', m)
+//await conn.send2ButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/263582cc62fcfbdacd094.jpg')).buffer(),  '*────────[ DASBOARD ]───────*', text, 'ᴅσɴαѕι', '.donasi', 'Owner', '.owner', m)
 await conn.sendFile(m.chat, fs.readFileSync('./mp3/anuu.mp3'), m)
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, 'Maaf, menu sedang ✘ Eror 404 ✘', m)
     throw e
   }
 }
