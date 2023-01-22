@@ -7,12 +7,12 @@ const sections = [ {
 	title: `LIST Saxia Store`,
 	rows: [
 	   {title: `[ 𝗣𝗘𝗠𝗕𝗔𝗬𝗔𝗥𝗔𝗡 ] Sebelum Melakukan Tranksasi, Harap Konfirmasi Sama Owner.`, rowId: `#bayar `},//, description: `Menampilkan kecepatan bot`},
-         {title: `[ 𝗣𝗔𝗞𝗘𝗧 𝗠𝗨𝗥𝗔𝗛 ] JADIBOT|1BULAN|15K`, rowId: `#owner `},//, description: `Terima kasih banyak semuanya`},
-         {title: `[ 𝗣𝗔𝗞𝗘𝗧 𝗠𝗨𝗥𝗔𝗛 ] JADIBOT|1BULAN|20K`, rowId: `#owner `},//, description: `Grup masih dalam pengembangan`},
-         {title: `[ 𝗣𝗔𝗞𝗘𝗧 𝗦𝗧𝗔𝗡𝗗𝗔𝗥 ] JASARUN|1BULAN|15K`, rowId: `#owner `},//, description: `Website owner`},
-         {title: `[ 𝗣𝗔𝗞𝗘𝗧 𝗦𝗧𝗔𝗡𝗗𝗔𝗥 ] JASARUN|1BULAN|15K`, rowId: `#owner `},//, description: `Donasi untuk membantu bot, agar selau online`},
-         {title: `[ 𝗣𝗔𝗞𝗘𝗧 𝗦𝗨𝗟𝗧𝗔𝗡 ] JASARUN|1BULAN|30K`, rowId: `#owner `},//, description: ``},
-         {title: `[ 𝗣𝗔𝗞𝗘𝗧 𝗦𝗨𝗟𝗧𝗔𝗡 ] JADIBOT|1BULAN|40K`, rowId: `#owner `},//, description: ``},
+         {title: `[ 𝗣𝗔𝗞𝗘𝗧 JADIBOT ] JADIBOT|1BULAN|15K`, rowId: `#owner `},//, description: `Terima kasih banyak semuanya`},
+         {title: `[ 𝗣𝗔𝗞𝗘𝗧 JADIBOTPREM ] JADIBOT|1BULAN|20K`, rowId: `#owner `},//, description: `Grup masih dalam pengembangan`},
+         {title: `[ 𝗣𝗔𝗞𝗘𝗧 SEWA ] SEWABOT|1BULAN|10K`, rowId: `#owner `},//, description: `Website owner`},
+         {title: `[ 𝗣𝗔𝗞𝗘𝗧 JASA ] JASARUN|1KALI|15K`, rowId: `#owner `},//, description: `Donasi untuk membantu bot, agar selau online`},
+         {title: `[ 𝗣𝗔𝗞𝗘𝗧 PANEL ] OpenPanel|Murah|Cht`, rowId: `#owner `},//, description: `Cht Owner Ready Panel Murah`},
+         {title: `[ 𝗣𝗔𝗞𝗘𝗧 PERMANEN ] SEWABOT/PREM|Permanen|250K`, rowId: `#owner `},//, description: `Khusus Sultan Chuy :v`},
         ]
  } ]
 
