@@ -6,8 +6,9 @@ let moment = require('moment-timezone')
 let jimp = require('jimp')
 let PhoneNumber = require('awesome-phonenumber')
 const defaultMenu = {
-  before: `┌───────────────────⬣
-│           *мυʀѕι∂ вσт-χмℓ*
+  before: `
+┌───────────────────⬣
+│🪴┊↬ Saxia˘Bot WhatsApp MD
 └┬────────────────✽  
 ┌┤⬡ *Name* : %name
 ││⬡ *Role* : %role
@@ -38,30 +39,29 @@ const defaultMenu = {
   body: '│⬡ %cmd %islimit %isPremium',
   footer: '└──────────⬣\n',
   after: `
-┌──「 *BIG THANKS TO* 」──⬣
-│⬡ Allah SWT
-│⬡ Adiwajshing
-│⬡ Nurutomo as wabot-aq
-│⬡ Istikmal as BochilGaming
-│⬡ Ariffb as stikerin
-│⬡ Aguz Familia
-│⬡ Ziv San
-│⬡ The.sad.boy01
-│⬡ Nayla Hanifah
-│⬡ X-Team
-│⬡ Mark
-│⬡ BOTCAHX
-│⬡ AlyaaXd
-│⬡ Syahrul
-│⬡ Vanesha Desu
-│⬡ Aniq12
-│⬡ Amirul Dev
-│⬡ Rasell Comel
-│⬡ Krizyn_ofc
-│⬡ Mursid S
-│⬡ All Creator Bot
-│⬡ Para Donasi
-└──────────⬣
+❖═┅「 *BIG THANKS TO* 」──⬣
+┊⬡ Nurutomo
+┊⬡ Istikmal
+┊⬡ Ariffb
+┊⬡ Aguz Familia
+┊⬡ Aniq12
+┊⬡Ilman
+┊⬡ Irwan
+┊⬡ Mursid
+┊⬡Izanami
+┊⬡ TioXd
+┊⬡ Lolhuman
+┊⬡ The.sad.boy01
+┊⬡ AlyaaXd
+┊⬡ Krizyn
+┊⬡ ALL creator Bot
+┗––––––––––๑
+❏═┅═━–『 Special 』
+┊↬ Kasan: (Team)
+┊↬ Danz: (Team)
+┊↬ Saxia: (Me)
+┊↬ User Sewa/Donasi
+┗━═┅═━––––––⬣
 
 *%npmname@^%version*
 ${'```%npmdesc```'}
@@ -270,19 +270,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       const sections = [
             {
               "rows": [{
-                "title": `ᴘᴇᴍɪʟɪᴋ ʙᴏᴛ`,
+                "title": `『👻』ᴘᴇᴍɪʟɪᴋ ʙᴏᴛ`,
                 "description": "Nomor Pemilik Bot",
                 "rowId": `${_p}creator`
               }, {
-                "title": "sʏᴀʀᴀᴛ ᴋᴇᴛᴇɴᴛᴜᴀɴ ᴅᴀɴ ᴘᴇʀᴀᴛᴜʀᴀɴ",
-                "description": "Harap membaca Peraturan demi kenyamanan kita bersama",
+                "title": "『♨️』sʏᴀʀᴀᴛ ᴋᴇᴛᴇɴᴛᴜᴀɴ ᴅᴀɴ ᴘᴇʀᴀᴛᴜʀᴀɴ",
+                "description": "Harap  dibaca Peraturan demi kenyamanan kita bersama",
                 "rowId": `${_p}rules`
               }, {
-                "title": "ᴅᴏɴᴀsɪ",
-                "description": "Dukung terus dengan cara berdonasi seikhlasnya, untuk mendukung agar bot berjalan 24 jam nonstop tanpa ada kendala",
+                "title": "『💸』ᴅᴏɴᴀsɪ",
+                "description": "Ayo Donasi Xia, untuk mendukung ine 24 jam nonstop tanpa ada kendala",
                 "rowId": `${_p}donasi`
               }, {
-                "title": "ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴇᴍᴜᴀ",
+                ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴇᴍᴜᴀ",
                 "description": "Terimakasih atas dukungan dan support dari kalian, terimakasih banyak kepada pihak yang terkait dalam pembangunan мυʀѕι∂ вσт-χмℓ ",
                 "rowId": `${_p}tqto`
               }, {
@@ -290,168 +290,91 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan",
                 "rowId": `${_p}gcbot`
               }],
-              "title": `ѕємυα ρєʀιɴтαн мυʀѕι∂ вσт-χмℓ `
+              "title": `ALL MENU BOTZ`
             }, {
               "rows": [{
-                "title": `sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ`,
+                "title": `⻝ sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ ⻝`,
                 "description": "Menu Semua Perintah",
                 "rowId": `${_p}? all`
                 }],
-              "title": "─────「 1 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title": `ɢᴀᴍᴇ`,
+                "title": `⻝ ɢᴀᴍᴇ ⻝`,
                 "description": "Menu untuk Game",
                 "rowId": `${_p}? game`
               }],
-              "title": "─────「 2 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title": `ᴇxᴘ`,
+                "title": `⻝ ᴇxᴘ ʀᴘɢ ⻝`,
                 "description": "Menu untuk XP",
                 "rowId": `${_p}? xp`
               }],
-              "title": "─────「 3 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title": `sᴛɪᴋᴇʀ`,
-                "description": "Menu untuk Sticker",
-                "rowId": `${_p}? stiker`
-              }],
-              "title": "─────「 4 」"
-            }, {
-              "rows": [{
-                "title": `ᴋᴇʀᴀɴɢ ᴀᴊᴀɪʙ`,
-                "description": "Menu kerang ajaib...",
-                "rowId": `${_p}? kerangajaib`
-              }],
-              "title": "─────「 5 」"
-            }, {
-              "rows": [{
-                "title": `ǫᴜᴏᴛᴇs`,
-                "description": "Menu untuk Quotes",
-                "rowId": `${_p}? quotes`
-              }],
-              "title": "─────「 6 」"
-            }, {
-              "rows": [{
-                "title": `ᴀᴅᴍɪɴ`,
+                "title": `⻝ ᴀᴅᴍɪɴ ⻝`,
                 "description": "Menu untuk Admin",
                 "rowId": `${_p}? admin`
               }],
-              "title": "─────「 7 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title": `ɢʀᴜᴘ`,
+                "title": `⻝ ɢʀᴜᴘ ⻝`,
                 "description": "Menu untuk Group",
                 "rowId": `${_p}? group`
               }],
-              "title": "─────「 8 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title": `ᴘʀᴇᴍɪᴜᴍ`,
+                "title": `⻝ ᴘʀᴇᴍɪᴜᴍ ⻝`,
                 "description": "Menu untuk Premium Users",
                 "rowId": `${_p}? premium`
               }],
-              "title": "─────「 9 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title": `ɪɴᴛᴇʀɴᴇᴛ`,
+                "title": `⻝ ɪɴᴛᴇʀɴᴇᴛ ⻝`,
                 "description": "Menu untuk Internet",
                 "rowId": `${_p}? internet`
               }],
-              "title": "─────「 10 」"
-            }, {
-              "rows": [{
-                "title": `ᴀɴᴏɴʏᴍᴏᴜs ᴄʜᴀᴛ`,
-                "description": "Menu untuk Anonymous Chat",
-                "rowId": `${_p}? anonymous`
-              }],
-              "title": "─────「 11 」"
-            }, {
-              "rows": [{
-                "title": `ɴᴜʟɪs & ʟᴏɢᴏ`,
-                "description": "Menu untuk Nulis & Logo",
-                "rowId": `${_p}? nulis`
-              }],
-              "title": "─────「 12 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
                 "title": `ᴅᴏᴡɴʟᴏᴀᴅᴇʀ`,
                 "description": "Menu Downloader",
                 "rowId": `${_p}? downloader`
               }],
-              "title": "─────「 13 」"
-            }, {
-              "rows":[{
-                "title": `ᴛᴏᴏʟs`,
-                "description": "Menu untuk Tools",
-                "rowId": `${_p}? tools`
-              }],
-              "title": "─────「 14 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title": `ғᴜɴ`,
-                "description": "Menu Fun",
-                "rowId": `${_p}? fun`
-              }],
-              "title": "─────「 15 」"
-            }, {
-              "rows": [{
-                "title": `ᴅᴀᴛᴀʙᴀsᴇ`,
-                "description": "Menu untuk Database",
-                "rowId": `${_p}? database`
-              }],
-              "title": "─────「 16 」"
-            }, {
-              "rows": [{
-                "title": `ᴠᴏᴛᴇ & ᴀʙsᴇɴ`,
-                "description": "Menu untuk Vote & Absen",
-                "rowId": `${_p}? vote`
-              }],
-              "title": "─────「 17 」"
-            }, {
-              "rows": [{
-                "title": `ɪsʟᴀᴍɪᴄ`,
-                "description": "Menu Islamic",
-                "rowId": `${_p}? islamic`
-              }],
-              "title": "─────「 18 」"
-            }, {
-              "rows": [{
-                "title": `ᴘᴇɴɢᴜʙᴀʜ sᴜᴀʀᴀ`,
-                "description": "Menu Pengubah Suara",
-                "rowId": `${_p}? audio`
-              }],
-              "title": "─────「 19 」"
-            }, {
-              "rows": [{
-                "title":  `ᴊᴀᴅɪ ʙᴏᴛ`,
-                "description": "Menu jadibot/belum tersedia",
+                "title":  `⻝ ᴊᴀᴅɪ ʙᴏᴛ ⻝`,
+                "description": "Menu jadibot Cht Owner",
                 "rowId": `${_p}? jadibot`
               }],
-              "title": "─────「 20 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title": `ɪɴғᴏ`,
+                "title": `⻝ ɪɴғᴏ ⻝`,
                 "description": "Menu untuk Info",
                 "rowId": `${_p}? info`
               }],
-              "title": "─────「 21 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title": `ᴛᴀɴᴘᴀ ᴋᴀᴛᴇɢᴏʀɪ`,
+                "title": `⻝ ᴛᴀɴᴘᴀ ᴋᴀᴛᴇɢᴏʀɪ ⻝`,
                 "description": "Menu Tanpa Kategori",
                 "rowId": `${_p}? tanpakategori`
               }],
-              "title": "─────「 22 」"
+              "title": "─────「 -- 」"
             }, {
               "rows": [{
-                "title":  `ᴏᴡɴᴇʀ`,
+                "title":  `⻝ ᴏᴡɴᴇʀ ⻝`,
                 "description": "Menu Khusus Owner",
                 "rowId": `${_p}? owner`
               }],
-              "title": "─────「 23 」"
+              "title": "─────「 -- 」"
             }
           ]
     const listMessage = {
