@@ -20,7 +20,7 @@ module.exports = {
             if (!m) return
             // console.log(m)
             m.exp = 0
-            m.limit = false
+            m.limit = true
             try {
                 let user = global.db.data.users[m.sender]
                 if (typeof user !== 'object') global.db.data.users[m.sender] = {}
@@ -41,7 +41,7 @@ module.exports = {
                     if (!isNumber(user.troopcamp)) user.troopcamp = 0
                     if (!isNumber(user.coin)) user.coin = 0
                     if (!isNumber(user.atm)) user.atm = 0
-                    if (!isNumber(user.limit)) user.limit = 100
+                    if (!isNumber(user.limit)) user.limit = 45
                     if (!isNumber(user.glimit)) user.glimit = 20
                     if (!isNumber(user.tprem)) user.tprem = 0
                     if (!isNumber(user.tigame)) user.tigame = 50
@@ -264,7 +264,7 @@ module.exports = {
                     exp: 0,
                     coin: 0,
                     atm: 0,
-                    limit: 100,
+                    limit: 45,
                     tigame: 50,
                     lastclaim: 0,
                     money: 0,
@@ -761,15 +761,15 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh _*Tim Discussion!1!1!*_',
-        owner: 'Perintah ini hanya dapat digunakan oleh _*Tim Discussion!1!1!*_',
-        mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
+        rowner: 'Perintah ini hanya dapat digunakan oleh _*Devloper*_',
+        owner: 'Perintah ini hanya dapat digunakan oleh _*Devloper*_',
+        mods: 'Perintah ini hanya dapat digunakan oleh _*Devloper*_ !',
         premium: 'Perintah ini hanya untuk member _*Premium*_ !',
         group: 'Perintah ini hanya dapat digunakan di _*Grup*_!',
         private: 'Perintah ini hanya dapat digunakan di _*Chat Pribadi*_!',
         admin: 'Perintah ini hanya untuk *Admin* grup!',
         botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Mursid Ganteng.18*',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Marcel.15*',
         restrict: 'Fitur ini di _*disable*_!'
     }[type]
     if (msg) return m.reply(msg)
