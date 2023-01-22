@@ -4,13 +4,15 @@ let krtu = `Kartu Intro`
 m.reply(`
 0ཻུ۪۪ꦽꦼ̷⸙‹•───────────⬣
 │     *「 TEKS INTRO 」*
+│
 │ • *Nama     :*
 │ • *Gender   :* 
 │ • *Umur      :* 
 │ • *Hobby    :* 
 │ • *Kelas      :* 
 │ • *Asal        :* 
-└───────────────⬣
+│
+└──ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙⬣
 `.trim()) // Tambah sendiri kalo mau
 }
 handler.command = /^(intro)$/i
