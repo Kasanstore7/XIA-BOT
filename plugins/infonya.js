@@ -13,7 +13,7 @@ const sections = [ {
          {title: `🎗️|gʀυρ σffical`, rowId: `#gcbot `},//, description: `Grup masih dalam pengembangan`},
          {title: `🪐|ᴡєвѕιтє`, rowId: `#web `},//, description: `Website owner`},
          {title: `💸|ᴅσɴαѕι`, rowId: `#donasi `},//, description: `Donasi untuk membantu bot, agar selau online`},
-         {title: `🧸|Info Devloper`, rowId: `#infomursid `},//, description: ``},
+         {title: `🧸|Info Devloper`, rowId: `#infodevloper `},//, description: `Inpo Devloper Xia?`},
         ]
  } ]
 
