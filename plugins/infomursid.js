@@ -27,7 +27,7 @@ https://ẉbit.ly/
 
 handler.help = ['infodevloper']
 handler.tags = ['main', 'utama']
-handler.command = /^(infomursid)$/i
+handler.command = /^(infodevloper)$/i
 
 handler.exp = 150
 
