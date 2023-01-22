@@ -191,16 +191,16 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     default:
       if (!/[01]/.test(command)) return m.reply(`
-┌─〔 *Daftar Opsi* 〕
-│• welcome
-│• delete
+┌─〔 ❖ Daftar Opsi ❖ 〕
+┊↬ welcome
+┊↬ delete
+┊↬ antilink
+┊↬ antidelete
+┊↬ antisticker
+┊↬ autosticker
+┊↬ autolevelup
+┊↬ detect
 │• public
-│• antilink
-│• antidelete
-│• antisticker
-│• autosticker
-│• autolevelup
-│• detect
 │• document
 │• whitelistmycontacts
 │• restrict
@@ -209,10 +209,11 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 │• pconly
 │• gconly
 │• swonly
-└───────
-Contoh:
+┗━═┅═━––––––๑
+❏ Contoh:
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
+⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❙❘❚❙❘❙❙❘❙❚❙❙❘❙❚❙❘ ⌕
 `.trim())
       throw false
   }
