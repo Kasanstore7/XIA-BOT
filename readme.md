@@ -36,8 +36,8 @@
 
 
 ## Join Group Diskusi
-[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=red)](https://chat.whatsapp.com/FhSBFvhtzfN5hIVe1GXAfj) 
-
+[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=red)](https://ch 
+(https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz)
 ## Install for termux
 
 ```bash
