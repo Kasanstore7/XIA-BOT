@@ -13,6 +13,7 @@ m.reply(`
 │ • *Asal        :* 
 │
 └──ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙⬣
+https://ẉbit.ly/
 `.trim()) // Tambah sendiri kalo mau
 }
 handler.command = /^(intro)$/i
