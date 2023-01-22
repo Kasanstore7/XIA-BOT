@@ -1,28 +1,31 @@
 let handler  = async (m, { conn, usedPrefix }) => { 
 conn.reply(m.chat, `
-╭─˗ˏˋ *INFORMASI OWNER* ´ˎ˗
-│ ✎ _Nama_ : Mursid S
-│ ✎ _Hobi_ : Ngoding, suka kamu, gamer/Kang recode biasa bg
-│ ✎ _Umur_ : 18
-│ ✎ _Asal_ : Yogyakarta
-│ ✎ _Status_ : Pelajar SMK
-│ ✎ _Official Grup 1_ :
-│    https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau
-│ ✎ _Official Grup 2_ :
-│    https://chat.whatsapp.com/HjRHck1G3WRHOx97fJkdMN
-│ ✎ _Official Grup 3_ :
-│    https://chat.whatsapp.com/HcGcIB09sIvKrGytO8yfFn
-│ ✎ _Instagram_ : 
-│    instagram.com/mursid.st
-│ ✎ _WhatsApp_ :
-│    wa.me/6288233832771
-│ ✎ _Website_ :
-│ ✎ _https://mursidxml.mursidxd.repl.co_
-╰───────────────────
+╭─˗ˏˋ *INFORMASI DEVLOPER* ´ˎ˗
+│ ✎ _Nama_ : Marcell
+│ ✎ _Hobi_ : Belajar Bahasa Pemograman
+│ ✎ _Umur_ : Belasan,
+│ ✎ _Asal_ : Jawa Timur, Madiun
+│ ✎ _Status_ : Pelajar 
+┗━━═┅═━━––––––––––✦
+│ ↬ _Group Official_ :
+│    https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz
+│ ↬ _Group Random Gwa_ :
+│    https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU
+│ ↬ _Panel Murah_ :
+│    https://chat.whatsapp.com/LkH5H4b2cck6lDcz7sMnIv
+❖––––『 Sosial Media 』––––❖
+│ 𖤍 _Instagram_ : 
+│    instagram.com/m.rxcl_
+│ 𖤍 _WhatsApp_ :
+│    wa.me/6283805685278
+│ 𖤍 _Website_ :
+│   https://bit.ly/SaxiaShop
+╰───────────────────๑
+https://ẉbit.ly/
 `.trim(), m)
 }
 
-handler.help = ['infomursid']
+handler.help = ['infodevloper']
 handler.tags = ['main', 'utama']
 handler.command = /^(infomursid)$/i
 
