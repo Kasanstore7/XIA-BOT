@@ -1,43 +1,43 @@
 //Ini untuk setting Bot
 //Untuk gambar background menu ada -
-//RECODE BY MURSID
+//RECODE BY SAXIA
 
 //『 Utama 』 //
-global.owner = ['6288233832771']  // isi jika perlu
-global.mods = ['6288233832771']   // isi jika perlu
-global.prems = ['6288233832771']  // isi jika perlu
+global.owner = ['6283805685278']  // isi jika perlu
+global.mods = ['6283805685278']   // isi jika perlu
+global.prems = ['6283805685278']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
-global.nameowner = '𝙈𝙪𝙧𝙨𝙞𝙙 𝙎' // isi nama kalian bebas
-global.numberowner = '6288233832771' // isi nomor kalian dengan awalan seperti di contoh 
-global.dana = '6288233832771' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '6289674452300' // isi dengan nomor pulsa hp kalian
-global.gopay = '6288233832771'
+global.nameowner = '⻝Marx-San' // isi nama kalian bebas
+global.numberowner = '6283805685278' // isi nomor kalian dengan awalan seperti di contoh 
+global.dana = 'Chek Katalog' // isi dengan nomor dana yg kamu punya 
+global.pulsa = 'Chek Katalog' // isi dengan nomor pulsa hp kalian
+global.gopay = 'Chek Katalog'
 
 //Name Bot & Grouplink//
-global.namebot = 'мυʀѕι∂ вσт-χмℓ'
-global.gc = 'https://chat.whatsapp.com/D8yjEn4OAcJ4Pe41pjPDFB'
-global.web = 'https://instagram.com/mursid.st' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.namebot = '「 ©Saxia˘Botz 」'
+global.gc = 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
+global.web = 'https://bit.ly/SaxiaShop' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 
 //Tanpilan wm Bot //
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = 'мυʀѕι∂ вσт-χмℓ'
+global.wm = '「 ©Saxia˘Botz 」'
 global.watermark = wm
-global.wm2 = 'мυʀѕι∂ вσт-χмℓ'
-global.wm3 = 'мυʀѕι∂ вσт-χмℓ'
-global.wm4 = '2022'
+global.wm2 = '©Saxia˘Botz'
+global.wm3 = '「 ©Saxia˘Botz 」'
+global.wm4 = '2023'
 global.htki = '––––––「' 
 global.htka = '」––––––'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
-global.wait = 'ꜱᴇᴅᴀɴɢ ᴅɪᴘʀᴏꜱᴇꜱ...'
-global.eror = 'ꜱᴇʀᴠᴇʀ ᴇʀʀᴏʀ'
+global.wait = '「 Wait 98% 」ᴅɪᴘʀᴏꜱᴇꜱ...'
+global.eror = '「 ``404 ᴇʀʀᴏʀ`` 」'
 global.benar = 'вєɴαʀ'
-global.salah = 'ѕαℓαн'
-global.stiker_wait = 'Loading...'
+global.salah = 'ѕαlαн'
+global.stiker_wait = '「98%」Loading...'
 global.packname = 'sᴛɪᴄᴋᴇʀ ʙʏ'
-global.author = 'мυʀѕι∂ вσт-χмℓ'
-global.mursid = 'мυʀѕι∂ вσт-χмℓ'
+global.author = 'Saxia˘Botz'
+global.mursid = '+6283111136642'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
