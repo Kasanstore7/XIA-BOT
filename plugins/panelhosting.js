@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let sel = `Daftar List Store`
     let rs = `Klik Disini`
 const sections = [ {
-	title: `LIST KHASAN DEV.01`,
+	title: `LIST Saxia Store`,
 	rows: [
 	   {title: `[ 𝗣𝗘𝗠𝗕𝗔𝗬𝗔𝗥𝗔𝗡 ] Sebelum Melakukan Tranksasi, Harap Konfirmasi Sama Owner.`, rowId: `#bayar `},//, description: `Menampilkan kecepatan bot`},
          {title: `[ 𝗣𝗔𝗞𝗘𝗧 𝗠𝗨𝗥𝗔𝗛 ] JADIBOT|1BULAN|15K`, rowId: `#owner `},//, description: `Terima kasih banyak semuanya`},
@@ -34,6 +34,6 @@ const listMessage = {
 
 handler.help = ['panelhosting']
 handler.tags = ['main', 'utama']
-handler.command = /^(storekhasan|kasanlist$/i
+handler.command = /^(saxiastore|saxialist$/i
 
 module.exports = handler
