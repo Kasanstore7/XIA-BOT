@@ -2,7 +2,7 @@ let handler = async m => {
 
 let krtu = `Kartu Intro`
 m.reply(`
-┌───────────────⬣
+0ཻུ۪۪ꦽꦼ̷⸙‹•───────────⬣
 │     *「 TEKS INTRO 」*
 │ • *Nama     :*
 │ • *Gender   :* 
@@ -10,8 +10,6 @@ m.reply(`
 │ • *Hobby    :* 
 │ • *Kelas      :* 
 │ • *Asal        :* 
-│ • *Agama   :* 
- |  • *Status    :* 
 └───────────────⬣
 `.trim()) // Tambah sendiri kalo mau
 }
