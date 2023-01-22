@@ -1,44 +1,27 @@
 let fs = require('fs')
 let handler = async (m, { conn }) => {
 let anu = `
-   *мυʀѕι∂ вσт-χмℓ*
+๑━━━═『 Open Sewa Botz 』═━━━๑
 
    *SEWA BOT GRUP*
-1. Grup/60 Hari Rp 20,000 Dana
-   Grup/60 Hari Rp 25,000 Pulsa
-   Grup/60 Hari Rp 15,000 Gopay
+1. > Rp 10,000 /Bulan
+   > Rp 75,000 /Tahun
+   > Rp 2,500 /Minggu
 
    *SEWA BOT GRUP + PREMIUM*
-2. Grup/30 Hari Rp 15,000 Dana /30 Day
-   Grup/30 Hari Rp 15,000 Pulsa
-   Grup/30 Hari Rp 15,000 Gopay /30 Day
+2. > Rp 15,000 /Bulan
+   > Rp 85,000 /Tahun
+   > Rp 4,000 /Minggu
 
-3. *SEWA BOT GRUP + PREMIUM*
-   Grup/15 Hari Rp 10,000 Dana /20 Day
-   Grup/15 Hari Rp 10,000 Pulsa / 15 Day
-   Grup/15 Hari Rp 10,000 Gopay /20 Day
+3. *SEWA PANEL MURAH*
+  ♨️: https://chat.whatsapp.com/LkH5H4b2cck6lDcz7sMnIv
+   
+📮*NOTE* : Tidak melayani sewa bot permanen Tapi Klo mau 250k Gas...
 
-4. *SEWA BOT GRUP + PREMIUM*
-   Grup/10 Hari Rp 10,000 Dana /15 Day
-   Grup/10 Hari Rp 10,000 Pulsa / 10 Day
-   Grup/10 Hari Rp 10,000 Gopay /15 Day
+🎗️*GRUP BOT* : 
+https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz
 
-5. *SEWA BOT GRUP + PREMIUM*
-   Grup/7 Hari Rp 5,000 Dana /10 Day
-   Grup/7 Hari Rp 5,000 Pulsa /10 Day
-   Grup/7 Hari Rp 5,000 Gopay /10 Day
-
-6. *SEWA BOT GRUP + FREETRIAL*
-   Grup/Free Trial Rp 00,000 ( Request )
-   Grup/Feee Trial Rp 00,000 ( Request )
-   Grup/Free Trial Rp 00,000  ( Request )
-
-*NOTE* : Tidak melayani sewa bot permanen
-
-*GRUP BOT* : 
-https://chat.whatsapp.com/FhSBFvhtzfN5hIVe1GXAfj
-
-wa.me/6288233832771 ( Mursid S )
+wa.me/6283805685278 ( Owner )
 `
 await conn.relayMessage(m.chat,  {
     requestPaymentMessage: {
