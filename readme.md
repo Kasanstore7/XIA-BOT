@@ -2,15 +2,15 @@
 
   <p align="center"><a href="https://github.com/BOTCAHX/RTXZY-MD/network/members">
 
-    <img title="Whatsapp-Bot-Multi-Device-Forks" src="https://img.shields.io/github/forks/BOTCAHX/RTXZY-MD?label=Forks&color=%23ffdac1&style=flat-square">
+    <img title="Whatsapp-Bot-Multi-Device-Forks" src="https://img.shields.io/github/forks/Kasanstore7/XIA-BOT?label=Forks&color=%23ffdac1&style=flat-square">
 
   </a>
 
-<a href="https://www.codefactor.io/repository/github/botcahx/rtxzy-md"><img src="https://www.codefactor.io/repository/github/botcahx/rtxzy-md/badge" alt="CodeFactor" /></a>
+<a href="https://www.codefactor.io/repository/github/Kasanstore7/XIA-BOT"><img src="https://www.codefactor.io/repository/github/Kasanstore7/XIA-BOT/badge" alt="CodeFactor" /></a>
 
   <a href="https://github.com/BOTCAHX/RYXZY-MD/watchers">
 
-    <img title="Whatsapp-Bot-Multi-Auth" src="https://img.shields.io/github/watchers/BOTCAHX/RTXZY-MD?label=Watchers&color=%23e2f0cb&style=flat-square">
+    <img title="Whatsapp-Bot-Multi-Auth" src="https://img.shields.io/github/watchers/Kasanstore7/XIA-BOT?label=Watchers&color=%23e2f0cb&style=flat-square">
 
   </a>
 
