@@ -14,7 +14,7 @@
 
   </a>
 
-  <a href="https://github.com/BOTCAHX/RTXZY-MD/blob/master/LICENSE">
+  <a href="https://github.com/Mshunone/XIABOT1/blob/master/LICENSE">
 
     <img title="Whatsapp-Bot-Multi-Auth" src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?color=%23b5ead7&style=flat-square"/>
 
@@ -22,7 +22,7 @@
 
   <a href="https://hits.seeyoufarm.com">
 
-    <img title="Whatsapp-Bot-Multi-Device-Hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBOTCAX%2FRTXZY-MD&count_bg=%23c7ceea&title_bg=%23555555&icon=probot.svg&icon_color=%23c7ceea&title=Hits&edge_flat=true"/>
+    <img title="Whatsapp-Bot-Multi-Device-Hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBMshunone%2FXIABOT1&count_bg=%23c7ceea&title_bg=%23555555&icon=probot.svg&icon_color=%23c7ceea&title=Hits&edge_flat=true"/>
 
   </a>
 
@@ -40,7 +40,7 @@
 
 - Telah menggunakan baileys multi auth !
 
-- Panduan [`Link`](https://github.com/BOTCAHX/RTXZY-MD/blob/v3.0/BACADULU.md#session-multi-auth)
+- Panduan [`Link`](https://github.com/Mshunone/XIABOT1/blob/v3.0/BACADULU.md#session-multi-auth)
 
 ## Base 
 
@@ -48,7 +48,7 @@ Original base [`Link`](https://github.com/HelgaIlham/ZukaBet)
 
 ## List Menu Troube Discussion 
 
-Bergabung [`Read Discussion`](https://github.com/BOTCAHX/RTXZY-MD/discussions/46)
+Bergabung [`Read Discussion`](https://github.com/Mshunone/XIABOT1/discussions/46)
 
 ## Instalasi Package Error
 
@@ -114,9 +114,9 @@ Gunakan Backup [`Link Backup`](https://github.com/BOTCAHX/RTXZY-MD/blob/v3.0/pac
 
 > pkg install libwebp
 
-> git clone  https://github.com/Mshuone/mursidxml
+> git clone  https://github.com/Mshuone/XIABOT1
 
-> cd RTXZY-MD
+> cd XIABOT1
 
 > npm i
 
@@ -126,9 +126,9 @@ Gunakan Backup [`Link Backup`](https://github.com/BOTCAHX/RTXZY-MD/blob/v3.0/pac
 
 > cd /sdcard
 
-> cp -r mursidxml $HOME
+> cp -r XIABOT1 $HOME
 
-> cd RTXZY-MD
+> cd XIABOT1
 
 > npm i
 
@@ -164,7 +164,7 @@ Choose your repo
 
 ```bash
 
-git clone https://github.com/BOTCAHX/RTXZY-MD
+git clone https://github.com/Mshuone/XIABOT1
 
 cd RTXZY-MD
 
@@ -304,7 +304,7 @@ conn.logger.level = 'debug'
 
 ##### All Contributors
 
-<a href="https://github.com/BOTCAHX"><img src="https://github.com/BOTCAHX.png?size=100" width="100" height="100"></a> | [![Alya Putri](https://github.com/Kasanstore7.png?size=100)](https://github.com/Kasanstore7) 
+<a href="https://github.com/Kasanstore7"><img src="https://github.com/Kasanstore7.png?size=100" width="100" height="100"></a> | [![Alya Putri](https://github.com/Kasanstore7.png?size=100)](https://github.com/Kasanstore7) 
 
 ---|---
 
