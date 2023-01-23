@@ -1,38 +1,38 @@
 ## CATATAN
 Script ini gratis untuk semua orang, bukan untuk Dijual. Jika dijual neraka menunggumu Brother!!
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/Kasanstore7/readme/master/assets/lines/colored.png)](#table-of-contents)
 <p align="center">
-    <img src="https://telegra.ph/file/8a1c663c84751c10baf65.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://telegra.ph/file/c61fa5deff8e5fbb797da.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 
 ## PENTING
 
 > **Warning**: Script Ini Tidak Support Qr Untuk Saat Ini, Jadi Kalian Bisa Menggunakan Replit Untuk Mengambil Session Atau
-Memakai Sc Lain Untuk Mengambil Session Atau Kalau Kalian Masih pengguna Satu Sesi Bisa Pakai main.js.bak yg sudah saya sediakan
+Memakai Sc Lain Untuk Mengambil Sessions Atau ambil sessions di https://replit.com/@tioclkp02/sessions
 
-<h1 align="center">RullBOT - MD</h1>
+<h1 align="center">Saxia - MD</h1>
 <p align="center">
-  <a href="https://github.com/RullDev"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Rull+BOT+Multi+Device;Base+ori+by+BochilGaming;Recode+By+RullSenpai;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
+  <a href="https://github.com/Kasanstore7"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Rull+BOT+Multi+Device;Base+ori+by+BochilGaming;Recode+By+RullSenpai;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
 </p>
 
 <p align="center">
- <a href="#"><img title="RullBOT" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+ <a href="#"><img title="sanara md" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/RullDev"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ImYanXiao-green.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Kasanstore7"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ImYanXiao-green.svg?style=for-the-badge&logo=github"></a>
 
 ---------
 
 ## ```Connect With Me 📞``` 
 
-## ```Whatsapp``` <a href="https://wa.me/6287753812675"> <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Whatsapp.svg" />
-[![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6287753812675) 
+## ```Whatsapp``` <a href="https://wa.me/6285641142178"> <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Whatsapp.svg" />
+[![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6283192405363) 
 ---------
 
 ### a little about this bot
 - ✔️ | **Simple** 
 - ✔️ | **Button Template** 
-- ✔️ | **Multi Device** 
+- ✔️ | **Multi Auth** 
 - ✔️ | **Button Document(Experiment)** 
 ---------
 ### Some of the features include
@@ -53,20 +53,20 @@ Memakai Sc Lain Untuk Mengambil Session Atau Kalau Kalian Masih pengguna Satu Se
 ---------
 
 ## ```For User Panel, Buy Panel In This Number```
-[![WHATSAPP](https://img.shields.io/badge/Seller%20Panel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6285692006004) 
+[![WHATSAPP](https://img.shields.io/badge/Seller%20Panel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6285641142178) 
 ---------
 
 ## ```USER RAILWAY```
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/ImYanXiao/Elaina-MultiDevice)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Kasanstre7/XIA-BOT)
 
 ## ```USER REPLIT```
-[![Run on Repl.it](https://repl.it/badge/github/ImYanXiao/Elaina-MultiDevice)](https://repl.it/github/ImYanXiao/Elaina-MultiDevice)
+[BOT INI TIDAK SUPORT QR JADI KALIAN AMBIL SESSION di https://replit.com/@tioclkp02/sessions]
 
 ---------
 
 ## ```Nama Session```
-[<rullzy.data.json>]
+ (<sessions>)
 
 ## `--self`
 * Activate self mode (Ignores other)
@@ -119,17 +119,17 @@ Set prefix
 ---------
 
 ## ```Thanks to ✨```
-* [`Allah SWT`](https://github.com/RullDev)
-* [`My parents`](https://github.com/RullDev)
-* [`All Friends`](https://github.com/RullDev)
+* [`Allah SWT`](https://github.com/Kasanstore7)
+* [`My parents`](https://github.com/Kasanstore7)
+* [`All Friends`](https://github.com/Kasanstore7)
 * [`All Contributors`](https://github.com/RullDev)
 * [`All Creator Bot`](https://github.com/RullDev)
 * [`Adiwajshing`](https://github.com/adiwajshing/Baileys)
 * [`Nurutomo`](https://github.com/nurutomi)
 * [`BochilGaming`](https://github.com/bochilgaming)
-* [`KannaChann`](https://github.com/kannachann) 
-* [`The.Sad.Boy01`](https://github.com/Kangsad01) 
-* [`Papah-Chan`](https://github.com/FahriAdison) 
+* [`TIO`](https://github.com/BOTCAHX) 
+* [`MARCEL`](https://github.com/Mshunone) 
+* [`Khasan dev.01`](https://github.com/Kasanstore7) 
 
 ## ```Recode By ✏️```
-[![KhrlMstfa](https://telegra.ph/file/8a1c663c84751c10baf65.jpg?size=20)](https://github.com/RullDev)
+[![Khasan dev.01](https://telegra.ph/file/c61fa5deff8e5fbb797da.jpg?size=20)](https://github.com/Kasanstore7)
