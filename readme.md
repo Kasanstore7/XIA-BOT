@@ -12,7 +12,7 @@ Memakai Sc Lain Untuk Mengambil Sessions Atau ambil sessions di https://replit.c
 
 <h1 align="center">Saxia - MD</h1>
 <p align="center">
-  <a href="https://github.com/Kasanstore7"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Rull+BOT+Multi+Device;Base+ori+by+BochilGaming;Recode+By+Khasan dev;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
+  <a href="https://github.com/Kasanstore7"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Sanara+BOT+Multi+Device;Base+ori+by+Botcahx;Recode+By+Khasan dev;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
 </p>
 
 <p align="center">
