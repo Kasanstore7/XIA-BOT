@@ -220,7 +220,7 @@ conn.logger.level = 'debug'
 ##### All Contributors
 <a href="https://github.com/BOTCAHX"><img src="https://github.com/BOTCAHX.png?size=100" width="100" height="100"></a> | [![Alya Putri](https://github.com/AlyaaXd.png?size=100)](https://github.com/AlyaaXd) 
 ---|---
-[Tio](https://github.com/BOTCAHX)  | [Alya putri](https://github.com/AlyaaXd)
+[Tio](https://github.com/BOTCAHX)  | [Khasan dev.01](https://github.com/Kasanstore7)
 Creator | Creator |
 <a href="https://github.com/verdihatorou"><img src="https://github.com/verdihatorou.png?size=100" width="100" height="100"></a> | [![Radhin](https://github.com/radhin123.png?size=100)](https://github.com/radhin123) 
 [Verdi](https://github.com/verdihatorou)  | [ Radhin](https://github.com/radhin123)
@@ -232,7 +232,7 @@ Contributor
 <!--[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
 [![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
 [![adiwajshing/Baileys](https://github.com/adiwajshing.png?size=100)](https://github.com/adiwajshing)-->
-<a href="https://github.com/BochilGaming"><img src="https://github.com/BochilGaming.png?size=100" width="100" height="100"></a> | [![NURUTOMO](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) 
+<a href="https://github.com/BochilGaming"><img src="https://github.com/BochilGaming.png?size=100" width="100" height="100"></a> | [!KHASAN DEV.01](https://github.com/Kasanstore7.png?size=100)](https://github.com/Kasanstore7 ) 
 ---|---
 [bocil](https://github.com/BochilGaming)  | [Nurutomo](https://github.com/Nurutomo)
 sepuh | sepuh |
