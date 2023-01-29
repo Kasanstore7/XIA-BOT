@@ -2,7 +2,7 @@
 # Penjelasan 
  
 > **Warning**:Jika ingin database terkoneksi ke MongoDb 
-maka di haruskan daftar terlebih dahulu 
+makaa di haruskan daftar terlebih dahulu 
 akun mongodb anda, Namun sc ini ada akun
 Mongo gratis :
 
